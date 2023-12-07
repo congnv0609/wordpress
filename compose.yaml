@@ -23,7 +23,6 @@ services:
     ports:
       - "80:80"
       - "443:443"
-      - "21:21"
     depends_on:
       - php-fpm  # Depends on the PHP-FPM service
       - mysql-db  # Depends on the MySQL database service
