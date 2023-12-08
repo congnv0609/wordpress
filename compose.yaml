@@ -14,15 +14,14 @@ services:
 
   # NGINX Service
   nginx:
-    build:
-      context: .
-      dockerfile: ./nginx/Dockerfile
-    volumes:
-    # Mountlocal 'app' directory to the Nginx root
-      - ./app:/var/www/html 
+    image: nginx:latest
     ports:
       - "80:80"
       - "443:443"
+    restart: always
+    volumes:
+      - ./nginx/conf/:/etc/nginx/conf.d/:ro
+      - ./certbot/www/:/var/www/certbot/:ro
     depends_on:
       - php-fpm  # Depends on the PHP-FPM service
       - mysql-db  # Depends on the MySQL database service
@@ -51,3 +50,9 @@ services:
       PMA_HOST: mysql-db
       # Use MySQL root password for PHPMyAdmin
       MYSQL_ROOT_PASSWORD: hccomputer@1124 
+
+  certbot:
+    image: certbot/certbot:latest
+    volumes:
+      - ./certbot/www/:/var/www/certbot/:rw
+      - ./certbot/conf/:/etc/letsencrypt/:rw
