@@ -14,14 +14,17 @@ services:
 
   # NGINX Service
   webserver:
-    image: nginx:latest
+    #image: nginx:latest
+    build:
+      context: .
+      dockerfile: ./nginx/Dockerfile
     ports:
-      - "80:80"
-      - "443:443"
-    restart: unless-stopped
+      - 80:80
+      - 83:83
+      - 443:443
     volumes:
       - ./app:/var/www/html
-      - ./nginx/conf/:/etc/nginx/conf.d/:ro
+      - ./nginx/sites-available:/etc/nginx/conf.d/:ro
       - ./certbot/www/:/var/www/certbot/:ro
     depends_on:
       - php-fpm  # Depends on the PHP-FPM service
