@@ -20,7 +20,6 @@ services:
       dockerfile: ./nginx/Dockerfile
     ports:
       - 80:80
-      - 83:83
       - 443:443
     restart: always
     volumes:

@@ -19,9 +19,7 @@ services:
       context: .
       dockerfile: ./nginx/Dockerfile
     ports:
-      - 80:80
       - 83:83
-      - 443:443
     volumes:
       - ./app:/var/www/html
       - ./nginx/sites-available:/etc/nginx/conf.d/:ro
