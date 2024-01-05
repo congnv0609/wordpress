@@ -14,10 +14,10 @@ services:
 
   # NGINX Service
   webserver:
-    #image: nginx:latest
-    build:
-      context: .
-      dockerfile: ./nginx/Dockerfile
+    image: nginx:latest
+    #build:
+      #context: .
+      #dockerfile: ./nginx/Dockerfile
     ports:
       - 80:80
       - 443:443
@@ -25,10 +25,8 @@ services:
     volumes:
       - ./app:/var/www/html
       - ./nginx/sites-available:/etc/nginx/conf.d/:ro
+      - ./certbot/conf/:/etc/letsencrypt/:ro	
       - ./certbot/www/:/var/www/certbot/:ro
-    depends_on:
-      - php-fpm  # Depends on the PHP-FPM service
-      - mysql-db  # Depends on the MySQL database service
 
   # MySQL Database Service
   mysql-db:
