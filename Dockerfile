@@ -1,6 +1,9 @@
 # Add PHP-FPM base image
 FROM php:8.2-fpm
 
+# Set Environment Variables
+ENV DEBIAN_FRONTEND noninteractive
+
 # Install your extensions
 # To connect to MySQL, add mysqli
 # Install "curl", "libmemcached-dev", "libpq-dev", "libjpeg-dev",
