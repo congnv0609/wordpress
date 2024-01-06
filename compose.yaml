@@ -8,6 +8,7 @@ services:
     volumes:
     # Mounts the local 'app' directory to the container's Nginx root
       - ./app:/var/www/html  
+      # - ./php/config/docker-php.ini:/etc/php/conf.d/docker-php.ini:ro
     depends_on:
     # Depends on the MySQL database service
       - mysql-db  
@@ -22,8 +23,8 @@ services:
       - 83:83
     volumes:
       - ./app:/var/www/html
-      - ./nginx/sites-available:/etc/nginx/conf.d/:ro
-      - ./certbot/www/:/var/www/certbot/:ro
+      - ./nginx/sites-available/localhost.conf:/etc/nginx/conf.d/localhost.conf:ro
+      # - ./certbot/www/:/var/www/certbot/:ro
     depends_on:
       - php-fpm  # Depends on the PHP-FPM service
       - mysql-db  # Depends on the MySQL database service
@@ -40,7 +41,7 @@ services:
     # Maps port 3306 on the host to port 3306 on the MySQL container
       - "3306:3306"  
     volumes:
-      - /mysql/data:/var/lib/mysql
+      - ./mysql/data:/var/lib/mysql
 
   # PHPMyAdmin Service
   phpmyadmin:
@@ -55,8 +56,8 @@ services:
       # Use MySQL root password for PHPMyAdmin
       MYSQL_ROOT_PASSWORD: hccomputer@1124 
 
-  certbot:
-    image: certbot/certbot:latest
-    volumes:
-      - ./certbot/www/:/var/www/certbot/:rw
-      - ./certbot/conf/:/etc/letsencrypt/:rw
+  # certbot:
+  #   image: certbot/certbot:latest
+  #   volumes:
+  #     - ./certbot/www/:/var/www/certbot/:rw
+  #     - ./certbot/conf/:/etc/letsencrypt/:rw
