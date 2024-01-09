@@ -85,6 +85,8 @@ define( 'WP_DEBUG', false );
 
 define('UPLOADS', 'wp-content/uploads');
 
+define('DISABLE_WP_CRON', true);
+
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
