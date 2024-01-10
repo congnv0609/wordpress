@@ -8,7 +8,7 @@ services:
     volumes:
     # Mounts the local 'app' directory to the container's Nginx root
       - ./app:/var/www/html  
-      # - ./php/config/docker-php.ini:/etc/php/conf.d/docker-php.ini:ro
+      - ./php/config/docker-php.ini:/usr/local/etc/php/conf.d/docker-php.ini
     depends_on:
     # Depends on the MySQL database service
       - mysql-db  
@@ -54,7 +54,7 @@ services:
     environment:
       PMA_HOST: mysql-db
       # Use MySQL root password for PHPMyAdmin
-      MYSQL_ROOT_PASSWORD: hccomputer@1124 
+      MYSQL_ROOT_PASSWORD: hccomputer@1124
 
   # certbot:
   #   image: certbot/certbot:latest
