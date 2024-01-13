@@ -81,7 +81,7 @@ services:
   #      - "/etc/letsencrypt/live/<your_server>/cert.pem:/etc/ssl/private/pure-ftpd-cert.pem"
   #      - "/etc/letsencrypt/live/<your_server>/privkey.pem:/etc/ssl/private/pure-ftpd-key.pem"
       environment:
-        PUBLICHOST: "hccomputer.net"
+        PUBLICHOST: "localhost"
         FTP_USER_NAME: hccomputer
         FTP_USER_PASS: hccomputer@1124
         FTP_USER_HOME: /home/hccomputer
