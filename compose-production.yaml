@@ -5,6 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    container_name: php-fpm
     volumes:
     # Mounts the local 'app' directory to the container's Nginx root
       - ./app:/var/www/html  
@@ -16,6 +17,7 @@ services:
   # NGINX Service
   webserver:
     image: nginx:latest
+    container_name: nginx
     #build:
       #context: .
       #dockerfile: ./nginx/Dockerfile
@@ -36,6 +38,7 @@ services:
   # MySQL Database Service
   mysql-db:
     image: mysql:8.0
+    container_name: mysql
     environment:
       MYSQL_ROOT_PASSWORD: hccomputer@1124
       MYSQL_DATABASE: wordpress
@@ -50,6 +53,7 @@ services:
   # PHPMyAdmin Service
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin
     links:
     # Links the PHPMyAdmin service to the MySQL database service
       - mysql-db 
@@ -62,6 +66,7 @@ services:
 
   certbot:
     image: certbot/certbot:latest
+    container_name: certbot
     command: certonly --webroot --webroot-path=/var/www/certbot --email congnv69@gmail.com --agree-tos --no-eff-email -d hccomputer.net -d www.hccomputer.net
     volumes:
       - ./certbot/www/:/var/www/certbot/:rw
