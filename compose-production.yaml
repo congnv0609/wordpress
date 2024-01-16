@@ -62,6 +62,7 @@ services:
 
   certbot:
     image: certbot/certbot:latest
+    command: certonly --webroot --webroot-path=/var/www/certbot --email congnv69@gmail.com --agree-tos --no-eff-email -d hccomputer.net -d www.hccomputer.net
     volumes:
       - ./certbot/www/:/var/www/certbot/:rw
       - ./certbot/conf/:/etc/letsencrypt/:rw
