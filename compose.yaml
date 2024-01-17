@@ -40,7 +40,7 @@ services:
       MYSQL_PASSWORD: wordpress_pw@1124
     ports:
     # Maps port 3306 on the host to port 3306 on the MySQL container
-      - "3306:3306"  
+      - 3306:3306
     volumes:
       - ./mysql/data:/var/lib/mysql
 
@@ -51,11 +51,25 @@ services:
     # Links the PHPMyAdmin service to the MySQL database service
       - mysql-db 
     ports:
-      - "81:80" 
+      - 81:80
     environment:
       PMA_HOST: mysql-db
       # Use MySQL root password for PHPMyAdmin
       MYSQL_ROOT_PASSWORD: hccomputer@1124
+
+  redis:
+    image: redis:latest
+    container_name: redis
+    restart: always
+    ports:
+      - 6379:6379
+    volumes:
+      - ./redis/dаta:/root/redis
+      # - ./redis/redis.conf:/usr/local/etc/redis/redis.conf
+    environment:
+      - REDIS_PASSWORD=redis-password
+      - REDIS_PORT=6379
+      - REDIS_DATABASES=1
 
   # certbot:
   #   image: certbot/certbot:latest
