@@ -40,3 +40,5 @@ RUN set -eux; \
     --with-freetype; \
     docker-php-ext-install gd; \
     php -r 'var_dump(gd_info());'
+
+RUN pecl install redis && docker-php-ext-enable redis
