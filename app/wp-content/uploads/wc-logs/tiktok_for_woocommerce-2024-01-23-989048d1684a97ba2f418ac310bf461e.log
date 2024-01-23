@@ -1,0 +1,120 @@
+2024-01-23T00:20:51+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-23T00:20:51+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMHAEGRC77U8OC88QNOG","data":[{"event":"ViewContent","event_id":"65af0663412cb_tt4b_woocommerce_6597aabb89eb6_119","event_time":1705969251,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"142.93.167.19","user_agent":"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/114.0.0.0 Safari\/537.36","locale":"en"},"properties":{"contents":[{"price":160000,"quantity":1,"content_id":"119","content_name":"USB 3.2 SanDisk Ultra Luxe CZ74 32Gb"}],"content_type":"product","currency":"VND","value":160000},"page":{"url":"http:\/\/hccomputer.net\/product\/usb-3-2-sandisk-ultra-luxe-cz74-32gb\/"}}]}
+ ajax: no
+2024-01-23T00:20:52+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 2024012300205162790D37AFF0948778B9
+x-tt-trace-host: 0115fb3933a63395317ce1f4abb4f506dd46e637931a0194eff276f2050ee1f940aaae4b302d8780f6b09f8f6569574ece4a3b42b6595d19bb2dbf4c246a697c05b726633bcd1be2f139321f5005b74306969783286246578dabd3bc4435cb7a5299245d64def841029b1bf4d4843a1162
+x-tt-trace-id: 00-24012300205162790D37AFF0948778B9-3E61746ACD446830-00
+X-Origin-Response-Time: 29,23.218.107.47
+X-Akamai-Request-ID: 4134be83.2ab008
+Expires: Tue, 23 Jan 2024 00:20:52 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 23 Jan 2024 00:20:52 GMT
+X-Cache: TCP_MISS from a23-59-80-150.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-218-107-47.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=221, origin; dur=29
+Server-Timing: inner; dur=23
+X-Parent-Response-Time: 247,23.59.80.150
+
+{"code": 0, "message": "OK", "request_id": "2024012300205162790D37AFF0948778B9", "data": {}}
+
+2024-01-23T06:15:37+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-23T06:15:37+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMHAEGRC77U8OC88QNOG","data":[{"event":"ViewContent","event_id":"65af5989a857b_tt4b_woocommerce_6597aabb89eb6_213","event_time":1705990537,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"207.46.13.154","user_agent":"Mozilla\/5.0 AppleWebKit\/537.36 (KHTML, like Gecko; compatible; bingbot\/2.0; +http:\/\/www.bing.com\/bingbot.htm) Chrome\/116.0.1938.76 Safari\/537.36","locale":"en"},"properties":{"contents":[{"price":0,"quantity":1,"content_id":"213","content_name":"M\u00e1y in Canon 2900 Ch\u00ednh H\u00e3ng"}],"content_type":"product","currency":"VND","value":0},"page":{"url":"http:\/\/hccomputer.net\/product\/may-in-canon-2900-chinh-hang\/"}}]}
+ ajax: no
+2024-01-23T06:15:38+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 2024012306153835E71BFA35B8F2703476
+x-tt-trace-host: 0115fb3933a63395317ce1f4abb4f506ddeee7a5b53cd630fc2573453ca054e94c3f3007653f18bb258be88790f4e7d68f5713a5f9335328e739fceef86211194bb359097914c5aff2d78617d3dc4b6d73342a0134bbd57d9301cf4edbb80ac9d8a9d193c66daa73a28ac74f4d8a5b195e
+x-tt-trace-id: 00-24012306153835E71BFA35B8F2703476-1D0342E3F718DAD9-00
+X-Origin-Response-Time: 113,23.218.219.7
+X-Akamai-Request-ID: 1af5a103.21f6f3
+Expires: Tue, 23 Jan 2024 06:15:38 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 23 Jan 2024 06:15:38 GMT
+X-Cache: TCP_MISS from a23-47-190-102.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-218-219-7.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=224, origin; dur=113
+Server-Timing: inner; dur=110
+X-Parent-Response-Time: 334,23.47.190.102
+
+{"code": 0, "message": "OK", "request_id": "2024012306153835E71BFA35B8F2703476", "data": {}}
+
+2024-01-23T06:33:58+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-23T06:33:58+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMHAEGRC77U8OC88QNOG","data":[{"event":"ViewContent","event_id":"65af5dd6c894f_tt4b_woocommerce_6597aabb89eb6_122","event_time":1705991638,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"66.249.71.65","user_agent":"Mozilla\/5.0 (Linux; Android 6.0.1; Nexus 5X Build\/MMB29P) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/120.0.6099.224 Mobile Safari\/537.36 (compatible; Googlebot\/2.1; +http:\/\/www.google.com\/bot.html)","locale":"en"},"properties":{"contents":[{"price":650000,"quantity":1,"content_id":"122","content_name":"\u1ed4 c\u1ee9ng SSD Lexar NS100 256GB 2.5-Inch SATA III LNS100-256RB"}],"content_type":"product","currency":"VND","value":650000},"page":{"url":"http:\/\/hccomputer.net\/product\/o-cung-ssd-lexar-ns100-256gb-2-5-inch-sata-iii-lns100-256rb\/"}}]}
+ ajax: no
+2024-01-23T06:33:59+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 2024012306335959272AE6544ACD734F21
+x-tt-trace-host: 0115fb3933a63395317ce1f4abb4f506dd2b15cf5314cc05c02da26833f9cffa7c0f9e0b643823d38cda0aab0f9ef539df13a012928fc5a54d2452996b3cac99b06a6d9674623a407ad05b2026055c2a1cf67edbb584f2926a014486993ba22aca6c7d2ee9ad7c268e43ca46c70be83d91
+x-tt-trace-id: 00-24012306335959272AE6544ACD734F21-789DDAE2CA72FD38-00
+X-Origin-Response-Time: 24,23.213.246.135
+X-Akamai-Request-ID: b25a5e62.100209c3
+Expires: Tue, 23 Jan 2024 06:33:59 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 23 Jan 2024 06:33:59 GMT
+X-Cache: TCP_MISS from a23-210-250-135.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-213-246-135.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=220, origin; dur=24
+Server-Timing: inner; dur=23
+X-Parent-Response-Time: 239,23.210.250.135
+
+{"code": 0, "message": "OK", "request_id": "2024012306335959272AE6544ACD734F21", "data": {}}
+
+2024-01-23T11:33:11+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-23T11:33:11+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMHAEGRC77U8OC88QNOG","data":[{"event":"ViewContent","event_id":"65afa3f7724cb_tt4b_woocommerce_6597aabb89eb6_217","event_time":1706009591,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"167.71.254.83","user_agent":"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/114.0.0.0 Safari\/537.36","locale":"en"},"properties":{"contents":[{"price":0,"quantity":1,"content_id":"217","content_name":"M\u00e1y in phun m\u00e0u CANON G3010"}],"content_type":"product","currency":"VND","value":0},"page":{"url":"http:\/\/hccomputer.net\/product\/may-in-phun-mau-canon-g3010\/"}}]}
+ ajax: no
+2024-01-23T11:33:12+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202401231133112214A0A17465E789A4FB
+x-tt-trace-host: 0115fb3933a63395317ce1f4abb4f506ddbe16037ee3c06f48c7c3c5872b0a07ceb6ac8f27a9b0c4602050c596f28b5e71ba09cda832116d2a09e2037feb3c1d7eaffd2e6e7cece6f707b28d8612139dd3a27d19aa659b2dd1124ac0a131e3d1f80dade8585b59cfce33673fbeb9c66fd1
+x-tt-trace-id: 00-2401231133112214A0A17465E789A4FB-09AF55A1A00B327E-00
+X-Origin-Response-Time: 96,23.213.246.140
+X-Akamai-Request-ID: d80bb31a.1e174d1b
+Expires: Tue, 23 Jan 2024 11:33:12 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 23 Jan 2024 11:33:12 GMT
+X-Cache: TCP_MISS from a23-59-80-215.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-213-246-140.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=224, origin; dur=96
+Server-Timing: inner; dur=93
+X-Parent-Response-Time: 315,23.59.80.215
+
+{"code": 0, "message": "OK", "request_id": "202401231133112214A0A17465E789A4FB", "data": {}}
+

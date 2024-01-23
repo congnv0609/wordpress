@@ -1,0 +1,20 @@
+2024-01-09T15:34:58+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php:95
+Stack trace:
+#0 /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php(95): sprintf('Kh\xC3\xB4ng th\xE1\xBB\x83 k\xE1...', 'hccomputer.net:...')
+#1 /var/www/html/wp-admin/includes/file.php(2195): WP_Filesystem_FTPext->connect()
+#2 /var/www/html/wp-admin/includes/class-wp-upgrader.php(242): WP_Filesystem(Array, '/var/www/html/w...', false)
+#3 /var/www/html/wp-admin/includes/class-wp-upgrader.php(803): WP_Upgrader->fs_connect(Array)
+#4 /var/www/html/wp-admin/includes/class-plugin-upgrader.php(135): WP_Upgrader->run(Array)
+#5 /var/www/html/wp-admin/update.php(176): Plugin_Upgrader->install('/var/www/html/w...', Array)
+#6 {main}
+  thrown in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 95
+
+2024-01-09T15:37:37+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php:95
+Stack trace:
+#0 /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php(95): sprintf('Kh\xC3\xB4ng th\xE1\xBB\x83 k\xE1...', 'hccomputer.net:...')
+#1 /var/www/html/wp-admin/includes/file.php(2195): WP_Filesystem_FTPext->connect()
+#2 /var/www/html/wp-admin/update-core.php(881): WP_Filesystem(Array, '/var/www/html/', false)
+#3 /var/www/html/wp-admin/update-core.php(1168): do_core_upgrade(false)
+#4 {main}
+  thrown in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 95
+

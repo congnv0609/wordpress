@@ -1,0 +1,28 @@
+2024-01-09T07:05:02+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-09T07:05:02+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2024-01-09T07:06:56+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-09T07:06:56+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2024-01-09T07:09:08+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-09T07:09:08+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2024-01-09T07:09:45+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-09T07:09:45+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2024-01-09T07:11:32+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-09T07:11:32+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2024-01-09T07:11:52+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit AddToCart
+2024-01-09T07:11:52+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: Missing option "access_token"
+2024-01-09T07:11:52+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-09T07:11:52+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2024-01-09T07:28:06+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-09T07:28:06+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2024-01-09T09:46:38+00:00 DEBUG tt4b_product_delete: missing access token for tt4b_product_sync
+2024-01-09T09:46:44+00:00 DEBUG tt4b_product_delete: missing access token for tt4b_product_sync
+2024-01-09T09:46:50+00:00 DEBUG tt4b_product_delete: missing access token for tt4b_product_sync
+2024-01-09T09:46:56+00:00 DEBUG tt4b_product_delete: missing access token for tt4b_product_sync
+2024-01-09T09:47:02+00:00 DEBUG tt4b_product_delete: missing access token for tt4b_product_sync
+2024-01-09T09:47:57+00:00 DEBUG tt4b_product_delete: missing access token for tt4b_product_sync
+2024-01-09T09:48:03+00:00 DEBUG tt4b_product_delete: missing access token for tt4b_product_sync
+2024-01-09T09:48:09+00:00 DEBUG tt4b_product_delete: missing access token for tt4b_product_sync
+2024-01-09T09:48:15+00:00 DEBUG tt4b_product_delete: missing access token for tt4b_product_sync
+2024-01-09T09:48:21+00:00 DEBUG tt4b_product_delete: missing access token for tt4b_product_sync
+2024-01-09T09:48:28+00:00 DEBUG tt4b_product_delete: missing access token for tt4b_product_sync
+2024-01-09T09:48:34+00:00 DEBUG tt4b_product_delete: missing access token for tt4b_product_sync

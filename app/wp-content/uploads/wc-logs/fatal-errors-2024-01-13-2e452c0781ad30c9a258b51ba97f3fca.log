@@ -1,0 +1,172 @@
+2024-01-13T01:37:23+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php:95
+Stack trace:
+#0 /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php(95): sprintf('Kh\xC3\xB4ng th\xE1\xBB\x83 k\xE1...', 'hccomputer.net:...')
+#1 /var/www/html/wp-admin/includes/file.php(2195): WP_Filesystem_FTPext->connect()
+#2 /var/www/html/wp-admin/includes/class-wp-upgrader.php(242): WP_Filesystem(Array, '/var/www/html/w...', false)
+#3 /var/www/html/wp-admin/includes/class-plugin-upgrader.php(306): WP_Upgrader->fs_connect(Array)
+#4 /var/www/html/wp-admin/update.php(51): Plugin_Upgrader->bulk_upgrade(Array)
+#5 {main}
+  thrown in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 95
+
+2024-01-13T01:37:34+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php:95
+Stack trace:
+#0 /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php(95): sprintf('Kh\xC3\xB4ng th\xE1\xBB\x83 k\xE1...', 'hccomputer.net:...')
+#1 /var/www/html/wp-admin/includes/file.php(2195): WP_Filesystem_FTPext->connect()
+#2 /var/www/html/wp-admin/includes/class-wp-upgrader.php(242): WP_Filesystem(Array, '/var/www/html/w...', false)
+#3 /var/www/html/wp-admin/includes/class-plugin-upgrader.php(306): WP_Upgrader->fs_connect(Array)
+#4 /var/www/html/wp-admin/update.php(51): Plugin_Upgrader->bulk_upgrade(Array)
+#5 {main}
+  thrown in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 95
+
+2024-01-13T01:37:47+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php:95
+Stack trace:
+#0 /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php(95): sprintf('Kh\xC3\xB4ng th\xE1\xBB\x83 k\xE1...', 'hccomputer.net:...')
+#1 /var/www/html/wp-admin/includes/file.php(2195): WP_Filesystem_FTPext->connect()
+#2 /var/www/html/wp-admin/includes/class-wp-upgrader.php(242): WP_Filesystem(Array, '/var/www/html/w...', false)
+#3 /var/www/html/wp-admin/includes/class-plugin-upgrader.php(306): WP_Upgrader->fs_connect(Array)
+#4 /var/www/html/wp-admin/update.php(51): Plugin_Upgrader->bulk_upgrade(Array)
+#5 {main}
+  thrown in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 95
+
+2024-01-13T01:37:49+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php:95
+Stack trace:
+#0 /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php(95): sprintf('Kh\xC3\xB4ng th\xE1\xBB\x83 k\xE1...', 'hccomputer.net:...')
+#1 /var/www/html/wp-admin/includes/file.php(2195): WP_Filesystem_FTPext->connect()
+#2 /var/www/html/wp-admin/includes/class-wp-upgrader.php(242): WP_Filesystem(Array, '/var/www/html/w...', false)
+#3 /var/www/html/wp-admin/includes/class-plugin-upgrader.php(306): WP_Upgrader->fs_connect(Array)
+#4 /var/www/html/wp-admin/update.php(51): Plugin_Upgrader->bulk_upgrade(Array)
+#5 {main}
+  thrown in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 95
+
+2024-01-13T01:39:37+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php:95
+Stack trace:
+#0 /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php(95): sprintf('Kh\xC3\xB4ng th\xE1\xBB\x83 k\xE1...', '35.198.226.216:...')
+#1 /var/www/html/wp-admin/includes/file.php(2195): WP_Filesystem_FTPext->connect()
+#2 /var/www/html/wp-admin/includes/class-wp-upgrader.php(242): WP_Filesystem(Array, '/var/www/html/w...', false)
+#3 /var/www/html/wp-admin/includes/class-plugin-upgrader.php(306): WP_Upgrader->fs_connect(Array)
+#4 /var/www/html/wp-admin/update.php(51): Plugin_Upgrader->bulk_upgrade(Array)
+#5 {main}
+  thrown in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 95
+
+2024-01-13T01:57:13+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php:95
+Stack trace:
+#0 /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php(95): sprintf('Kh\xC3\xB4ng th\xE1\xBB\x83 k\xE1...', 'hccomputer.net:...')
+#1 /var/www/html/wp-admin/includes/file.php(2195): WP_Filesystem_FTPext->connect()
+#2 /var/www/html/wp-admin/includes/class-wp-upgrader.php(242): WP_Filesystem(Array, '/var/www/html/w...', false)
+#3 /var/www/html/wp-admin/includes/class-plugin-upgrader.php(306): WP_Upgrader->fs_connect(Array)
+#4 /var/www/html/wp-admin/update.php(51): Plugin_Upgrader->bulk_upgrade(Array)
+#5 {main}
+  thrown in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 95
+
+2024-01-13T02:12:50+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php:95
+Stack trace:
+#0 /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php(95): sprintf('Kh\xC3\xB4ng th\xE1\xBB\x83 k\xE1...', 'localhost:21')
+#1 /var/www/html/wp-admin/includes/file.php(2195): WP_Filesystem_FTPext->connect()
+#2 /var/www/html/wp-admin/includes/class-wp-upgrader.php(242): WP_Filesystem(Array, '/var/www/html/w...', false)
+#3 /var/www/html/wp-admin/includes/class-plugin-upgrader.php(306): WP_Upgrader->fs_connect(Array)
+#4 /var/www/html/wp-admin/update.php(51): Plugin_Upgrader->bulk_upgrade(Array)
+#5 {main}
+  thrown in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 95
+
+2024-01-13T02:14:16+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php:95
+Stack trace:
+#0 /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php(95): sprintf('Kh\xC3\xB4ng th\xE1\xBB\x83 k\xE1...', 'localhost:21')
+#1 /var/www/html/wp-admin/includes/file.php(2195): WP_Filesystem_FTPext->connect()
+#2 /var/www/html/wp-admin/includes/class-wp-upgrader.php(242): WP_Filesystem(Array, '/var/www/html/w...', false)
+#3 /var/www/html/wp-admin/includes/class-plugin-upgrader.php(306): WP_Upgrader->fs_connect(Array)
+#4 /var/www/html/wp-admin/update.php(51): Plugin_Upgrader->bulk_upgrade(Array)
+#5 {main}
+  thrown in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 95
+
+2024-01-13T02:18:16+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php:95
+Stack trace:
+#0 /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php(95): sprintf('Kh\xC3\xB4ng th\xE1\xBB\x83 k\xE1...', 'localhost:21')
+#1 /var/www/html/wp-admin/includes/file.php(2195): WP_Filesystem_FTPext->connect()
+#2 /var/www/html/wp-admin/includes/class-wp-upgrader.php(242): WP_Filesystem(Array, '/var/www/html/w...', false)
+#3 /var/www/html/wp-admin/includes/class-plugin-upgrader.php(306): WP_Upgrader->fs_connect(Array)
+#4 /var/www/html/wp-admin/update.php(51): Plugin_Upgrader->bulk_upgrade(Array)
+#5 {main}
+  thrown in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 95
+
+2024-01-13T02:19:52+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php:95
+Stack trace:
+#0 /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php(95): sprintf('Kh\xC3\xB4ng th\xE1\xBB\x83 k\xE1...', 'localhost:21')
+#1 /var/www/html/wp-admin/includes/file.php(2195): WP_Filesystem_FTPext->connect()
+#2 /var/www/html/wp-admin/includes/class-wp-upgrader.php(242): WP_Filesystem(Array, '/var/www/html/w...', false)
+#3 /var/www/html/wp-admin/includes/class-plugin-upgrader.php(306): WP_Upgrader->fs_connect(Array)
+#4 /var/www/html/wp-admin/update.php(51): Plugin_Upgrader->bulk_upgrade(Array)
+#5 {main}
+  thrown in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 95
+
+2024-01-13T13:47:19+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, non-static method Sydney_Header::social() cannot be called statically in /var/www/html/wp-includes/customize/class-wp-customize-partial.php:222
+Stack trace:
+#0 /var/www/html/wp-includes/customize/class-wp-customize-selective-refresh.php(372): WP_Customize_Partial->render(Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(324): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#5 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-includes/customize/class-wp-customize-partial.php on line 222
+
+2024-01-13T13:48:07+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, non-static method Sydney_Header::social() cannot be called statically in /var/www/html/wp-includes/customize/class-wp-customize-partial.php:222
+Stack trace:
+#0 /var/www/html/wp-includes/customize/class-wp-customize-selective-refresh.php(372): WP_Customize_Partial->render(Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(324): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#5 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-includes/customize/class-wp-customize-partial.php on line 222
+
+2024-01-13T13:50:28+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, non-static method Sydney_Header::social() cannot be called statically in /var/www/html/wp-includes/customize/class-wp-customize-partial.php:222
+Stack trace:
+#0 /var/www/html/wp-includes/customize/class-wp-customize-selective-refresh.php(372): WP_Customize_Partial->render(Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(324): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#5 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-includes/customize/class-wp-customize-partial.php on line 222
+
+2024-01-13T14:04:07+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, non-static method Sydney_Header::social() cannot be called statically in /var/www/html/wp-includes/customize/class-wp-customize-partial.php:222
+Stack trace:
+#0 /var/www/html/wp-includes/customize/class-wp-customize-selective-refresh.php(372): WP_Customize_Partial->render(Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(324): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#5 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-includes/customize/class-wp-customize-partial.php on line 222
+
+2024-01-13T14:04:08+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, non-static method Sydney_Header::social() cannot be called statically in /var/www/html/wp-includes/customize/class-wp-customize-partial.php:222
+Stack trace:
+#0 /var/www/html/wp-includes/customize/class-wp-customize-selective-refresh.php(372): WP_Customize_Partial->render(Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(324): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#5 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-includes/customize/class-wp-customize-partial.php on line 222
+
+2024-01-13T14:04:09+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, non-static method Sydney_Header::social() cannot be called statically in /var/www/html/wp-includes/customize/class-wp-customize-partial.php:222
+Stack trace:
+#0 /var/www/html/wp-includes/customize/class-wp-customize-selective-refresh.php(372): WP_Customize_Partial->render(Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(324): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#5 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-includes/customize/class-wp-customize-partial.php on line 222
+

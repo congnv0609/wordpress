@@ -1,0 +1,210 @@
+2024-01-20T00:30:06+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-20T00:30:06+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMHAEGRC77U8OC88QNOG","data":[{"event":"ViewContent","event_id":"65ab140e70380_tt4b_woocommerce_6597aabb89eb6_131","event_time":1705710606,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"128.199.4.166","user_agent":"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/114.0.0.0 Safari\/537.36","locale":"en"},"properties":{"contents":[{"price":150000,"quantity":1,"content_id":"131","content_name":"B\u00e0n Ph\u00edm C\u00f3 D\u00e2y Rapoo NK1800 - b\u00e0n ph\u00edm v\u0103n ph\u00f2ng"}],"content_type":"product","currency":"VND","value":150000},"page":{"url":"http:\/\/hccomputer.net\/product\/ban-phim-co-day-rapoo-nk1800-ban-phim-van-phong\/"}}]}
+ ajax: no
+2024-01-20T00:30:07+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20240120003006739019D99642583AD9B6
+x-tt-trace-host: 0115fb3933a63395317ce1f4abb4f506dd7f91a7b5e79113846883bac39ed9a17725e4e1cebc892f5d5959141d9aebf94bda11a1d7dfd764c372d1f0c73c0d53d7224bd690e2317ec1aed62cdbc71ce671fb94c37a9c3e9aff148749e33defb755f22ef7cf98b8490e3916ad3349f8c23a
+x-tt-trace-id: 00-240120003006739019D99642583AD9B6-078BAFB6A42B76FC-00
+X-Origin-Response-Time: 43,23.218.219.44
+X-Akamai-Request-ID: 16ef9432.ad981cb
+Expires: Sat, 20 Jan 2024 00:30:07 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Sat, 20 Jan 2024 00:30:07 GMT
+X-Cache: TCP_MISS from a23-59-80-39.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-218-219-44.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=225, origin; dur=43
+Server-Timing: inner; dur=39
+X-Parent-Response-Time: 264,23.59.80.39
+
+{"code": 0, "message": "OK", "request_id": "20240120003006739019D99642583AD9B6", "data": {}}
+
+2024-01-20T03:56:46+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit AddToCart
+2024-01-20T03:56:46+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMHAEGRC77U8OC88QNOG","data":[{"event":"AddToCart","event_id":"65ab447e59292_tt4b_woocommerce_6597aabb89eb6_119","event_time":1705723006,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"167.71.254.90","user_agent":"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/114.0.0.0 Safari\/537.36","locale":"en"},"properties":{"contents":[{"price":160000,"quantity":1,"content_id":"119","content_name":"USB 3.2 SanDisk Ultra Luxe CZ74 32Gb"}],"content_type":"product","currency":"VND","value":160000},"page":{"url":"http:\/\/hccomputer.net\/shop\/?add-to-cart=119"}}]}
+ ajax: no
+2024-01-20T03:56:47+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 2024012003564790930D800CD6114AFFE1
+x-tt-trace-host: 0115fb3933a63395317ce1f4abb4f506dd3b06c7b11124cd791622e93a8a8a79050fe4f695c93a8a2fa3f67879cc948dc7c185adecd64f0d37bf387f83b6099b5ff82b795128b0d630766deb327104ec15fbcf416b5a74ce777f6b1694b4c71773cb130953e8f8c97d7c3c4105f6e5ff25
+x-tt-trace-id: 00-24012003564790930D800CD6114AFFE1-7126ABD8901493E7-00
+X-Origin-Response-Time: 340,23.32.17.42
+X-Akamai-Request-ID: 1212f1e1.10e21c49
+Expires: Sat, 20 Jan 2024 03:56:47 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Sat, 20 Jan 2024 03:56:47 GMT
+X-Cache: TCP_MISS from a23-47-190-205.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-32-17-42.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=244, origin; dur=340
+Server-Timing: inner; dur=333
+X-Parent-Response-Time: 571,23.47.190.205
+
+{"code": 0, "message": "OK", "request_id": "2024012003564790930D800CD6114AFFE1", "data": {}}
+
+2024-01-20T04:49:45+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-20T04:49:45+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMHAEGRC77U8OC88QNOG","data":[{"event":"ViewContent","event_id":"65ab50e97bcdc_tt4b_woocommerce_6597aabb89eb6_128","event_time":1705726185,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"137.184.180.19","user_agent":"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/114.0.0.0 Safari\/537.36","locale":"en"},"properties":{"contents":[{"price":80000,"quantity":1,"content_id":"128","content_name":"Chu\u1ed9t c\u00f3 d\u00e2y RAPOO N120 c\u1ed5ng USB"}],"content_type":"product","currency":"VND","value":80000},"page":{"url":"http:\/\/hccomputer.net\/product\/chuot-co-day-rapoo-n120-cong-usb\/"}}]}
+ ajax: no
+2024-01-20T04:49:46+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202401200449450C9F5ACA96BECC4DCAC3
+x-tt-trace-host: 0115fb3933a63395317ce1f4abb4f506dd4af5033b38bdcd59ce8cc5681db7f0eed00d3b8da5d91ba4fa1ae4ff1de70eb0f9abf02442b0bbb0308fe082f103e16f05afb6a7021e40b8dc2ac19565a7e636cce6215c81559d2c3f6302615013396336b6e966356fbe0bb28fb9c909af7433
+x-tt-trace-id: 00-2401200449450C9F5ACA96BECC4DCAC3-4F5846FFD3EF3B25-00
+X-Origin-Response-Time: 48,23.222.3.69
+X-Akamai-Request-ID: 7b2df400.137c9702
+Expires: Sat, 20 Jan 2024 04:49:46 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Sat, 20 Jan 2024 04:49:46 GMT
+X-Cache: TCP_MISS from a23-47-190-118.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-222-3-69.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=223, origin; dur=48
+Server-Timing: inner; dur=43
+X-Parent-Response-Time: 267,23.47.190.118
+
+{"code": 0, "message": "OK", "request_id": "202401200449450C9F5ACA96BECC4DCAC3", "data": {}}
+
+2024-01-20T05:44:55+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-20T05:44:55+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMHAEGRC77U8OC88QNOG","data":[{"event":"ViewContent","event_id":"65ab5dd7cba40_tt4b_woocommerce_6597aabb89eb6_37","event_time":1705729495,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"137.184.43.33","user_agent":"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/114.0.0.0 Safari\/537.36","locale":"en"},"properties":{"contents":[{"price":150000,"quantity":1,"content_id":"37","content_name":"USB Lexar JumpDrive V400 32GB"}],"content_type":"product","currency":"VND","value":150000},"page":{"url":"http:\/\/hccomputer.net\/product\/usb-chinh-hang-san-nhac-cho-o-to\/"}}]}
+ ajax: no
+2024-01-20T05:44:56+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202401200544565A8E4B88D61F135296E5
+x-tt-trace-host: 0115fb3933a63395317ce1f4abb4f506ddf26522d8d692fd5011c3de040ea36dfa16d8e144c7f03d6e20b0e889b6bb22058bb57a104a33755751477989069ccc62449af130a312a7524ffa4e5814f44aea4321657e53d948ec168bb4203b8a9b8fa956b5b0b95128b3ef8a0fd3eecd3f34
+x-tt-trace-id: 00-2401200544565A8E4B88D61F135296E5-5C168411CDC368F4-00
+X-Origin-Response-Time: 28,23.218.219.17
+X-Akamai-Request-ID: 2def172e.28a71fd7
+Expires: Sat, 20 Jan 2024 05:44:56 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Sat, 20 Jan 2024 05:44:56 GMT
+X-Cache: TCP_MISS from a23-59-80-127.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-218-219-17.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=226, origin; dur=27
+Server-Timing: inner; dur=25
+X-Parent-Response-Time: 248,23.59.80.127
+
+{"code": 0, "message": "OK", "request_id": "202401200544565A8E4B88D61F135296E5", "data": {}}
+
+2024-01-20T10:54:56+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit AddToCart
+2024-01-20T10:54:56+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMHAEGRC77U8OC88QNOG","data":[{"event":"AddToCart","event_id":"65aba68065c27_tt4b_woocommerce_6597aabb89eb6_128","event_time":1705748096,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"167.71.254.83","user_agent":"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/114.0.0.0 Safari\/537.36","locale":"en"},"properties":{"contents":[{"price":80000,"quantity":1,"content_id":"128","content_name":"Chu\u1ed9t c\u00f3 d\u00e2y RAPOO N120 c\u1ed5ng USB"}],"content_type":"product","currency":"VND","value":80000},"page":{"url":"http:\/\/hccomputer.net\/shop\/?add-to-cart=128"}}]}
+ ajax: no
+2024-01-20T10:54:57+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202401201054565AEDB6F6A8D55764C87C
+x-tt-trace-host: 0115fb3933a63395317ce1f4abb4f506dd9658cd893068c18051dba1a8b1da37486bcbcf4fd316d7b3e9cde32e8ccb4008a5025125377c6e009bdcc173b8bb3ec5ce56dad0a152bfcbbb8d97be13a53ff47a3006ffecbc6269440633c1dec8734e894a69cf47b671f3c1722ef0b9018010
+x-tt-trace-id: 00-2401201054565AEDB6F6A8D55764C87C-69F16539C09D24C4-00
+X-Origin-Response-Time: 97,23.213.246.240
+X-Akamai-Request-ID: 6148b4cb.64ab44b
+Expires: Sat, 20 Jan 2024 10:54:57 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Sat, 20 Jan 2024 10:54:57 GMT
+X-Cache: TCP_MISS from a23-59-80-204.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-213-246-240.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=231, origin; dur=97
+Server-Timing: inner; dur=94
+X-Parent-Response-Time: 323,23.59.80.204
+
+{"code": 0, "message": "OK", "request_id": "202401201054565AEDB6F6A8D55764C87C", "data": {}}
+
+2024-01-20T15:59:54+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-20T15:59:54+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMHAEGRC77U8OC88QNOG","data":[{"event":"ViewContent","event_id":"65abedfa62cfd_tt4b_woocommerce_6597aabb89eb6_1","event_time":1705766394,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"104.236.73.172","user_agent":"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/114.0.0.0 Safari\/537.36","locale":"en"},"properties":{"contents":[{"price":180000,"quantity":1,"content_id":"1","content_name":"USB 3.0 SanDisk CZ430 Ultra Fit 32Gb"}],"content_type":"product","currency":"VND","value":180000},"page":{"url":"http:\/\/hccomputer.net\/product\/usb-sandisk-16gb\/"}}]}
+ ajax: no
+2024-01-20T15:59:55+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 2024012015595571E1E1879C239C79AEF3
+x-tt-trace-host: 0115fb3933a63395317ce1f4abb4f506dd71a91511c1b728174651910ca31ec97b1f79f24008df2365a37a509e7ab2231af60fcc40a36b414b3e72344ee4d928f7f97f4a9ae530fd311a3b866604f4245fa7cc304882d5a39dafb40914b5b1e1088e48b4c97e7245a5215780d347382491
+x-tt-trace-id: 00-24012015595571E1E1879C239C79AEF3-624908E2928F5D96-00
+X-Origin-Response-Time: 135,23.222.3.68
+X-Akamai-Request-ID: 6a427438.434c2857
+Expires: Sat, 20 Jan 2024 15:59:55 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Sat, 20 Jan 2024 15:59:55 GMT
+X-Cache: TCP_MISS from a23-210-250-159.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-222-3-68.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=231, origin; dur=135
+Server-Timing: inner; dur=131
+X-Parent-Response-Time: 362,23.210.250.159
+
+{"code": 0, "message": "OK", "request_id": "2024012015595571E1E1879C239C79AEF3", "data": {}}
+
+2024-01-20T18:19:07+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-20T18:19:07+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMHAEGRC77U8OC88QNOG","data":[{"event":"ViewContent","event_id":"65ac0e9b9453f_tt4b_woocommerce_6597aabb89eb6_235","event_time":1705774747,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"66.249.71.65","user_agent":"Mozilla\/5.0 (Linux; Android 6.0.1; Nexus 5X Build\/MMB29P) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/120.0.6099.224 Mobile Safari\/537.36 (compatible; Googlebot\/2.1; +http:\/\/www.google.com\/bot.html)","locale":"en"},"properties":{"contents":[{"price":0,"quantity":1,"content_id":"235","content_name":"RAM desktop KINGSTON FURY Beast RGB (2 x 16GB) DDR5 5600MHz (KF556C40BBAK2-32)"}],"content_type":"product","currency":"VND","value":0},"page":{"url":"http:\/\/hccomputer.net\/product\/ram-desktop-kingston-fury-beast-rgb-2-x-16gb-ddr5-5600mhz-kf556c40bbak2-32\/"}}]}
+ ajax: no
+2024-01-20T18:19:08+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20240120181908EBA932A6E1C5F5837187
+x-tt-trace-host: 0115fb3933a63395317ce1f4abb4f506dd1dbde8f0f208d57b2d650f2bd2dbdba7818a0589fb4474717cfeb160fa0d435a54e09966666aa58d40196ff34234078a1086a3aed210d8ff85b08442472829e928088892fd03c3937f5d793282306b05ce070d519ccbc9da130dd7eb4ade40d4
+x-tt-trace-id: 00-240120181908EBA932A6E1C5F5837187-364199D1D9DBA36D-00
+X-Origin-Response-Time: 103,23.218.219.4
+X-Akamai-Request-ID: 1ed922e2.1ee4e94
+Expires: Sat, 20 Jan 2024 18:19:08 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Sat, 20 Jan 2024 18:19:08 GMT
+X-Cache: TCP_MISS from a23-210-250-102.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-218-219-4.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=224, origin; dur=103
+Server-Timing: inner; dur=99
+X-Parent-Response-Time: 323,23.210.250.102
+
+{"code": 0, "message": "OK", "request_id": "20240120181908EBA932A6E1C5F5837187", "data": {}}
+

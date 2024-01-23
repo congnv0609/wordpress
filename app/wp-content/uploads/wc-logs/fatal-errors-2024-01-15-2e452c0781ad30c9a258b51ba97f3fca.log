@@ -1,0 +1,2 @@
+2024-01-15T07:07:57+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 1290240 bytes) in /var/www/html/wp-includes/script-loader.php on line 2896
+

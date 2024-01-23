@@ -1,0 +1,240 @@
+2024-01-22T05:54:43+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit AddToCart
+2024-01-22T05:54:43+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMHAEGRC77U8OC88QNOG","data":[{"event":"AddToCart","event_id":"65ae0323e96f2_tt4b_woocommerce_6597aabb89eb6_1","event_time":1705902883,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"5.161.213.173","user_agent":"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/114.0.0.0 Safari\/537.36","locale":"en"},"properties":{"contents":[{"price":180000,"quantity":1,"content_id":"1","content_name":"USB 3.0 SanDisk CZ430 Ultra Fit 32Gb"}],"content_type":"product","currency":"VND","value":180000},"page":{"url":"http:\/\/hccomputer.net\/shop\/?add-to-cart=112"}}]}
+ ajax: no
+2024-01-22T05:54:44+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202401220554444B2569BFFC322931A1E1
+x-tt-trace-host: 0115fb3933a63395317ce1f4abb4f506dd57dcc6ae4d6a79fcbe4787c91cac1b942369440dd0f4eae0023163eaefe6a6e25f3fa710434dc48abdf181775ddd0cbc8004e92646d5bc3d43ba4b78f81538e6e21581109749c4bf3f9e6d0dd15282d4a4ae19a9f679e1b9d741dd33246e620c
+x-tt-trace-id: 00-2401220554444B2569BFFC322931A1E1-3874CF5DD6724999-00
+X-Origin-Response-Time: 138,23.32.17.68
+X-Akamai-Request-ID: 6b4ae6b.3146af03
+Expires: Mon, 22 Jan 2024 05:54:44 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 22 Jan 2024 05:54:44 GMT
+X-Cache: TCP_MISS from a23-59-80-37.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-32-17-68.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=233, origin; dur=138
+Server-Timing: inner; dur=131
+X-Parent-Response-Time: 366,23.59.80.37
+
+{"code": 0, "message": "OK", "request_id": "202401220554444B2569BFFC322931A1E1", "data": {}}
+
+2024-01-22T06:22:23+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-22T06:22:23+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMHAEGRC77U8OC88QNOG","data":[{"event":"ViewContent","event_id":"65ae099ff34f5_tt4b_woocommerce_6597aabb89eb6_122","event_time":1705904543,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"188.166.55.153","user_agent":"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/114.0.0.0 Safari\/537.36","locale":"en"},"properties":{"contents":[{"price":650000,"quantity":1,"content_id":"122","content_name":"\u1ed4 c\u1ee9ng SSD Lexar NS100 256GB 2.5-Inch SATA III LNS100-256RB"}],"content_type":"product","currency":"VND","value":650000},"page":{"url":"http:\/\/hccomputer.net\/product\/o-cung-ssd-lexar-ns100-256gb-2-5-inch-sata-iii-lns100-256rb\/"}}]}
+ ajax: no
+2024-01-22T06:22:24+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20240122062224D7F2ACB38AC698FAF124
+x-tt-trace-host: 0115fb3933a63395317ce1f4abb4f506dda55a2eedde73cc3ae21f391f8339faab48db54efd2329ac266759f2146bae5fe448efb145463760aaefac452c518629fc8f87cb397e6e702daed6370c2f42e8cfad8a5fde77e9c822441bfb7e50f5eba03834354f0632376b327aadb4ab0f880
+x-tt-trace-id: 00-240122062224D7F2ACB38AC698FAF124-77385519F19B24F2-00
+X-Origin-Response-Time: 30,23.218.219.43
+X-Akamai-Request-ID: 1cbc67e8.12543e0
+Expires: Mon, 22 Jan 2024 06:22:24 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 22 Jan 2024 06:22:24 GMT
+X-Cache: TCP_MISS from a23-59-80-54.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-218-219-43.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=224, origin; dur=30
+Server-Timing: inner; dur=26
+X-Parent-Response-Time: 249,23.59.80.54
+
+{"code": 0, "message": "OK", "request_id": "20240122062224D7F2ACB38AC698FAF124", "data": {}}
+
+2024-01-22T07:39:19+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-22T07:39:19+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMHAEGRC77U8OC88QNOG","data":[{"event":"ViewContent","event_id":"65ae1ba75a6c1_tt4b_woocommerce_6597aabb89eb6_131","event_time":1705909159,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"157.55.39.56","user_agent":"Mozilla\/5.0 AppleWebKit\/537.36 (KHTML, like Gecko; compatible; bingbot\/2.0; +http:\/\/www.bing.com\/bingbot.htm) Chrome\/116.0.1938.76 Safari\/537.36","locale":"en"},"properties":{"contents":[{"price":150000,"quantity":1,"content_id":"131","content_name":"B\u00e0n Ph\u00edm C\u00f3 D\u00e2y Rapoo NK1800 - b\u00e0n ph\u00edm v\u0103n ph\u00f2ng"}],"content_type":"product","currency":"VND","value":150000},"page":{"url":"http:\/\/hccomputer.net\/product\/ban-phim-co-day-rapoo-nk1800-ban-phim-van-phong\/"}}]}
+ ajax: no
+2024-01-22T07:39:19+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202401220739191564441CF282B41B478D
+x-tt-trace-host: 0115fb3933a63395317ce1f4abb4f506dd079b764af48a214a83b09f72b13854841f4e38a769e39eaa43afec39faf0e3517d069c4c9b0220f188c9b77994c95f29568fdc5087b79f6bf5f021d9b9f108095d798b556bed614b6319e7a904c17e259cd93657dc279414fc3260c576b300ca
+x-tt-trace-id: 00-2401220739191564441CF282B41B478D-3D0FAC8C9EBA775F-00
+X-Origin-Response-Time: 28,23.218.219.21
+X-Akamai-Request-ID: 14707606.1a5b9abb
+Expires: Mon, 22 Jan 2024 07:39:19 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 22 Jan 2024 07:39:19 GMT
+X-Cache: TCP_MISS from a23-59-80-220.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-218-219-21.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=227, origin; dur=28
+Server-Timing: inner; dur=24
+X-Parent-Response-Time: 250,23.59.80.220
+
+{"code": 0, "message": "OK", "request_id": "202401220739191564441CF282B41B478D", "data": {}}
+
+2024-01-22T08:23:11+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-22T08:23:11+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMHAEGRC77U8OC88QNOG","data":[{"event":"ViewContent","event_id":"65ae25efe69d6_tt4b_woocommerce_6597aabb89eb6_115","event_time":1705911791,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"66.249.71.65","user_agent":"Mozilla\/5.0 (Linux; Android 6.0.1; Nexus 5X Build\/MMB29P) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/120.0.6099.224 Mobile Safari\/537.36 (compatible; Googlebot\/2.1; +http:\/\/www.google.com\/bot.html)","locale":"en"},"properties":{"contents":[{"price":150000,"quantity":1,"content_id":"115","content_name":"USB SanDisk Cruzer Glide USB 3.0 16Gb"}],"content_type":"product","currency":"VND","value":150000},"page":{"url":"http:\/\/hccomputer.net\/product\/usb-sandisk-cruzer-glide-usb-3-0-16gb\/"}}]}
+ ajax: no
+2024-01-22T08:23:12+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202401220823125455342BC20E791D5AEF
+x-tt-trace-host: 0115fb3933a63395317ce1f4abb4f506ddaeb4dac2cdf7f26f33da65b43ca9e2a11404f5f8c1a76d5c3eba1a850f1804ea73014b52671bf896f8a0221cb1779824972276ab1bc6b093c818b5d618a61f6abcb72557e774bce4d0c743fb4dde21b3d0993279f13fd291e1a7f50844a6096c
+x-tt-trace-id: 00-2401220823125455342BC20E791D5AEF-21FB38C101048EAD-00
+X-Origin-Response-Time: 21,23.58.124.5
+X-Akamai-Request-ID: 1ced58ef.1eaca567
+Expires: Mon, 22 Jan 2024 08:23:12 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 22 Jan 2024 08:23:12 GMT
+X-Cache: TCP_MISS from a23-59-80-110.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-58-124-5.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=217, origin; dur=21
+Server-Timing: inner; dur=19
+X-Parent-Response-Time: 234,23.59.80.110
+
+{"code": 0, "message": "OK", "request_id": "202401220823125455342BC20E791D5AEF", "data": {}}
+
+2024-01-22T17:49:25+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit AddToCart
+2024-01-22T17:49:25+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMHAEGRC77U8OC88QNOG","data":[{"event":"AddToCart","event_id":"65aeaaa58c284_tt4b_woocommerce_6597aabb89eb6_37","event_time":1705945765,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"164.90.159.212","user_agent":"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/114.0.0.0 Safari\/537.36","locale":"en"},"properties":{"contents":[{"price":150000,"quantity":1,"content_id":"37","content_name":"USB Lexar JumpDrive V400 32GB"}],"content_type":"product","currency":"VND","value":150000},"page":{"url":"http:\/\/hccomputer.net\/shop\/?add-to-cart=37"}}]}
+ ajax: no
+2024-01-22T17:49:26+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 2024012217492647EA2F2397521068F161
+x-tt-trace-host: 0115fb3933a63395317ce1f4abb4f506dd5014b20b42236489d7d720f3342dda8673dff8d5e81f294e81f10b3f520db8c2c2374fd5c04adfe9893dede40aa28e199a4d03bfef6e7517e5e4a0aca37589095ad0bd1d45df2d9d1f252149656b0766ec701378c1cbd0b7703e3e09bb6bf1f1
+x-tt-trace-id: 00-24012217492647EA2F2397521068F161-0C854A56E4202DC0-00
+X-Origin-Response-Time: 105,23.218.219.12
+X-Akamai-Request-ID: 18709592.19ec6e96
+Expires: Mon, 22 Jan 2024 17:49:26 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 22 Jan 2024 17:49:26 GMT
+X-Cache: TCP_MISS from a23-59-80-76.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-218-219-12.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=224, origin; dur=105
+Server-Timing: inner; dur=100
+X-Parent-Response-Time: 324,23.59.80.76
+
+{"code": 0, "message": "OK", "request_id": "2024012217492647EA2F2397521068F161", "data": {}}
+
+2024-01-22T18:32:22+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit AddToCart
+2024-01-22T18:32:22+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMHAEGRC77U8OC88QNOG","data":[{"event":"AddToCart","event_id":"65aeb4b691adb_tt4b_woocommerce_6597aabb89eb6_122","event_time":1705948342,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"137.184.42.91","user_agent":"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/114.0.0.0 Safari\/537.36","locale":"en"},"properties":{"contents":[{"price":650000,"quantity":1,"content_id":"122","content_name":"\u1ed4 c\u1ee9ng SSD Lexar NS100 256GB 2.5-Inch SATA III LNS100-256RB"}],"content_type":"product","currency":"VND","value":650000},"page":{"url":"http:\/\/hccomputer.net\/shop\/?add-to-cart=122"}}]}
+ ajax: no
+2024-01-22T18:32:23+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202401221832232A30B803A66824669FC7
+x-tt-trace-host: 0115fb3933a63395317ce1f4abb4f506dd4dc71a90814892c8a5ec2955bc597c784ac1366051952dfc876a2bce87089555299344f797257fb34f7741a2a27383ce303d874d03ab0e52056f227e6bd8a9a4966dbe0219421a855c2af4e9830f80d41ba6460924882ba532f42034559c5a72
+x-tt-trace-id: 00-2401221832232A30B803A66824669FC7-05D213340615043C-00
+X-Origin-Response-Time: 34,23.58.124.15
+X-Akamai-Request-ID: 23f812dc.6756de6
+Expires: Mon, 22 Jan 2024 18:32:23 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 22 Jan 2024 18:32:23 GMT
+X-Cache: TCP_MISS from a23-59-80-237.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-58-124-15.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=221, origin; dur=34
+Server-Timing: inner; dur=30
+X-Parent-Response-Time: 250,23.59.80.237
+
+{"code": 0, "message": "OK", "request_id": "202401221832232A30B803A66824669FC7", "data": {}}
+
+2024-01-22T21:14:55+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-22T21:14:55+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMHAEGRC77U8OC88QNOG","data":[{"event":"ViewContent","event_id":"65aedacf3ee78_tt4b_woocommerce_6597aabb89eb6_233","event_time":1705958095,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"157.55.39.10","user_agent":"Mozilla\/5.0 AppleWebKit\/537.36 (KHTML, like Gecko; compatible; bingbot\/2.0; +http:\/\/www.bing.com\/bingbot.htm) Chrome\/116.0.1938.76 Safari\/537.36","locale":"en"},"properties":{"contents":[{"price":0,"quantity":1,"content_id":"233","content_name":"CPU INTEL Core i9-12900K (16C\/24T, 3.20 GHz - 5.20 GHz, 30MB) - 1700"}],"content_type":"product","currency":"VND","value":0},"page":{"url":"http:\/\/hccomputer.net\/product\/cpu-intel-core-i9-12900k-16c-24t-3-20-ghz-5-20-ghz-30mb-1700\/"}}]}
+ ajax: no
+2024-01-22T21:14:55+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202401222114556A43D43911714F51BF98
+x-tt-trace-host: 0115fb3933a63395317ce1f4abb4f506dd61afbaea8606c712b5c2bbe681655f2444dc33ce2360bf6805785a344162f45a0fef4180592b7e5b6cae6320c6a49c2bf6f754b93e9f4c12cee73033606eef7ff83e62704c0cd29389e7494ff4089e6e22c7881079fe5e1998e1067fd5e2ca35
+x-tt-trace-id: 00-2401222114556A43D43911714F51BF98-0FF89E3F0CF081FC-00
+X-Origin-Response-Time: 109,23.55.171.77
+X-Akamai-Request-ID: 168220bd.1f73041
+Expires: Mon, 22 Jan 2024 21:14:55 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 22 Jan 2024 21:14:55 GMT
+X-Cache: TCP_MISS from a23-210-250-79.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-55-171-77.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=230, origin; dur=109
+Server-Timing: inner; dur=107
+X-Parent-Response-Time: 335,23.210.250.79
+
+{"code": 0, "message": "OK", "request_id": "202401222114556A43D43911714F51BF98", "data": {}}
+
+2024-01-22T23:11:27+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit AddToCart
+2024-01-22T23:11:27+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMHAEGRC77U8OC88QNOG","data":[{"event":"AddToCart","event_id":"65aef61f26355_tt4b_woocommerce_6597aabb89eb6_131","event_time":1705965087,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"142.93.35.111","user_agent":"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/114.0.0.0 Safari\/537.36","locale":"en"},"properties":{"contents":[{"price":150000,"quantity":1,"content_id":"131","content_name":"B\u00e0n Ph\u00edm C\u00f3 D\u00e2y Rapoo NK1800 - b\u00e0n ph\u00edm v\u0103n ph\u00f2ng"}],"content_type":"product","currency":"VND","value":150000},"page":{"url":"http:\/\/hccomputer.net\/shop\/?add-to-cart=131"}}]}
+ ajax: no
+2024-01-22T23:11:27+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202401222311271F3C35099EE0CF5B3C62
+x-tt-trace-host: 0115fb3933a63395317ce1f4abb4f506ddd8342fac5a004d62fc06dae89e87e8968ba244b7d1e8cdefdcd08ce2b800ce43e307befb9f02b45fe9baafa1b34f262376d9b9fd866ca265364f284a4f7e53ebe907106c698e6a4f6a0bcca70c5d4c252317a7bd51720b8e42d36ef29da28303
+x-tt-trace-id: 00-2401222311271F3C35099EE0CF5B3C62-114C995FB55EACAD-00
+X-Origin-Response-Time: 108,23.218.219.48
+X-Akamai-Request-ID: 3da2c5db.33bce34
+Expires: Mon, 22 Jan 2024 23:11:27 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 22 Jan 2024 23:11:27 GMT
+X-Cache: TCP_MISS from a23-47-190-180.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-218-219-48.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=224, origin; dur=108
+Server-Timing: inner; dur=105
+X-Parent-Response-Time: 329,23.47.190.180
+
+{"code": 0, "message": "OK", "request_id": "202401222311271F3C35099EE0CF5B3C62", "data": {}}
+

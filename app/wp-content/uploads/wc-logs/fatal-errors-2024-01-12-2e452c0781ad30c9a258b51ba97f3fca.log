@@ -1,0 +1,162 @@
+2024-01-12T10:01:08+00:00 CRITICAL Uncaught TypeError: ftp_nlist(): Argument #1 ($ftp) must be of type FTP\Connection, null given in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php:438
+Stack trace:
+#0 /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php(438): ftp_nlist(NULL, '/var/www/html/w...')
+#1 /var/www/html/wp-admin/includes/class-wp-filesystem-base.php(231): WP_Filesystem_FTPext->exists('/var/www/html/w...')
+#2 /var/www/html/wp-admin/includes/class-wp-filesystem-base.php(79): WP_Filesystem_Base->find_folder('/var/www/html/w...')
+#3 /var/www/html/wp-content/themes/superb-pixels/webfont-loader/wptt-webfont-loader.php(538): WP_Filesystem_Base->wp_content_dir()
+#4 /var/www/html/wp-content/themes/superb-pixels/webfont-loader/wptt-webfont-loader.php(582): WPTT_WebFont_Loader->get_base_path()
+#5 /var/www/html/wp-content/themes/superb-pixels/webfont-loader/wptt-webfont-loader.php(483): WPTT_WebFont_Loader->get_fonts_folder()
+#6 /var/www/html/wp-content/themes/superb-pixels/webfont-loader/wptt-webfont-loader.php(525): WPTT_WebFont_Loader->get_local_stylesheet_path()
+#7 /var/www/html/wp-content/themes/superb-pixels/webfont-loader/wptt-webfont-loader.php(144): WPTT_WebFont_Loader->local_file_exists()
+#8 /var/www/html/wp-content/themes/superb-pixels/webfont-loader/wptt-webfont-loader.php(706): WPTT_WebFont_Loader->get_url()
+#9 /var/www/html/wp-content/themes/superb-pixels/functions.php(224): wptt_get_webfont_url('https://fonts.g...')
+#10 /var/www/html/wp-includes/class-wp-hook.php(324): superb_pixels_enqueue_assets('')
+#11 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#12 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#13 /var/www/html/wp-includes/script-loader.php(2262): do_action('wp_enqueue_scri...')
+#14 /var/www/html/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#15 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#16 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#17 /var/www/html/wp-includes/general-template.php(3052): do_action('wp_head')
+#18 /var/www/html/wp-content/themes/superb-pixels/header.php(24): wp_head()
+#19 /var/www/html/wp-includes/template.php(790): require_once('/var/www/html/w...')
+#20 /var/www/html/wp-includes/template.php(725): load_template('/var/www/html/w...', true, Array)
+#21 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#22 /var/www/html/wp-content/themes/superb-pixels/index.php(19): get_header()
+#23 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#24 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#25 /var/www/html/index.php(17): require('/var/www/html/w...')
+#26 {main}
+  thrown in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 438
+
+2024-01-12T10:02:38+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type FTP\Connection, null given in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #2557, '/var/www/html/w...', 2)
+#1 /var/www/html/wp-content/themes/zakra/inc/customizer/core/class-zakra-fonts.php(132): WP_Filesystem_FTPext->get_contents('/var/www/html/w...')
+#2 /var/www/html/wp-content/themes/zakra/inc/customizer/core/custom-controls/typography/class-zakra-typography-control.php(151): Zakra_Fonts::get_google_fonts()
+#3 /var/www/html/wp-content/themes/zakra/inc/customizer/core/custom-controls/typography/class-zakra-typography-control.php(48): Zakra_Typography_Control->get_google_fonts()
+#4 /var/www/html/wp-includes/class-wp-customize-manager.php(4542): Zakra_Typography_Control->enqueue()
+#5 /var/www/html/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->enqueue_control_scripts('')
+#6 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-admin/customize.php(123): do_action('customize_contr...')
+#9 {main}
+  thrown in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2024-01-12T12:33:10+00:00 CRITICAL Uncaught TypeError: ftp_mkdir(): Argument #1 ($ftp) must be of type FTP\Connection, null given in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php:580
+Stack trace:
+#0 /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php(580): ftp_mkdir(NULL, '/var/www/html/w...')
+#1 /var/www/html/wp-content/themes/botiga/inc/classes/class-botiga-custom-css.php(1875): WP_Filesystem_FTPext->mkdir('/var/www/html/w...')
+#2 /var/www/html/wp-content/themes/botiga/inc/classes/class-botiga-custom-css.php(1849): Botiga_Custom_CSS->update_custom_css_file()
+#3 /var/www/html/wp-includes/class-wp-hook.php(324): Botiga_Custom_CSS->init('')
+#4 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /var/www/html/wp-settings.php(643): do_action('init')
+#7 /var/www/html/wp-config.php(98): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#10 /var/www/html/wp-admin/customize.php(13): require_once('/var/www/html/w...')
+#11 {main}
+  thrown in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 580
+
+2024-01-12T12:33:20+00:00 CRITICAL Uncaught TypeError: ftp_nlist(): Argument #1 ($ftp) must be of type FTP\Connection, null given in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php:438
+Stack trace:
+#0 /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php(438): ftp_nlist(NULL, '/var/www/html/w...')
+#1 /var/www/html/wp-admin/includes/class-wp-filesystem-base.php(231): WP_Filesystem_FTPext->exists('/var/www/html/w...')
+#2 /var/www/html/wp-admin/includes/class-wp-filesystem-base.php(79): WP_Filesystem_Base->find_folder('/var/www/html/w...')
+#3 /var/www/html/wp-content/themes/inspiro/inc/classes/class-inspiro-wptt-webfont-loader.php(529): WP_Filesystem_Base->wp_content_dir()
+#4 /var/www/html/wp-content/themes/inspiro/inc/classes/class-inspiro-wptt-webfont-loader.php(570): WPTT_WebFont_Loader->get_base_path()
+#5 /var/www/html/wp-content/themes/inspiro/inc/classes/class-inspiro-wptt-webfont-loader.php(478): WPTT_WebFont_Loader->get_fonts_folder()
+#6 /var/www/html/wp-content/themes/inspiro/inc/classes/class-inspiro-wptt-webfont-loader.php(517): WPTT_WebFont_Loader->get_local_stylesheet_path()
+#7 /var/www/html/wp-content/themes/inspiro/inc/classes/class-inspiro-wptt-webfont-loader.php(144): WPTT_WebFont_Loader->local_file_exists()
+#8 /var/www/html/wp-content/themes/inspiro/inc/classes/class-inspiro-wptt-webfont-loader.php(669): WPTT_WebFont_Loader->get_url()
+#9 /var/www/html/wp-content/themes/inspiro/inc/classes/class-inspiro-fonts-manager.php(250): wptt_get_webfont_url('https://fonts.g...')
+#10 /var/www/html/wp-content/themes/inspiro/inc/classes/class-inspiro-enqueue-scripts.php(91): Inspiro_Fonts_Manager::render_fonts()
+#11 /var/www/html/wp-includes/class-wp-hook.php(324): Inspiro_Enqueue_Scripts->block_editor_styles('')
+#12 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#13 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /var/www/html/wp-includes/class-wp-customize-widgets.php(879): do_action('enqueue_block_e...')
+#15 /var/www/html/wp-includes/class-wp-hook.php(324): WP_Customize_Widgets->enqueue_scripts('')
+#16 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#17 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#18 /var/www/html/wp-admin/customize.php(123): do_action('customize_contr...')
+#19 {main}
+  thrown in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 438
+
+2024-01-12T13:26:46+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type FTP\Connection, null given in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1996, '/var/www/html/w...', 2)
+#1 /var/www/html/wp-content/themes/sinatra/inc/core/class-sinatra-fonts.php(190): WP_Filesystem_FTPext->get_contents('/var/www/html/w...')
+#2 /var/www/html/wp-content/themes/sinatra/inc/core/class-sinatra-fonts.php(344): Sinatra_Fonts->get_google_fonts()
+#3 /var/www/html/wp-content/themes/sinatra/inc/class-sinatra-dynamic-styles.php(1749): Sinatra_Fonts->is_google_font('default')
+#4 /var/www/html/wp-content/themes/sinatra/inc/class-sinatra-dynamic-styles.php(1175): Sinatra_Dynamic_Styles->get_typography_field_css('body', Array)
+#5 /var/www/html/wp-content/themes/sinatra/inc/class-sinatra-dynamic-styles.php(1257): Sinatra_Dynamic_Styles->get_css(true)
+#6 /var/www/html/wp-content/themes/sinatra/inc/class-sinatra-dynamic-styles.php(113): Sinatra_Dynamic_Styles->update_dynamic_file()
+#7 /var/www/html/wp-includes/class-wp-hook.php(324): Sinatra_Dynamic_Styles->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(643): do_action('init')
+#11 /var/www/html/wp-config.php(98): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#14 /var/www/html/wp-admin/customize.php(13): require_once('/var/www/html/w...')
+#15 {main}
+  thrown in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2024-01-12T13:28:57+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type FTP\Connection, null given in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #2557, '/var/www/html/w...', 2)
+#1 /var/www/html/wp-content/themes/zakra/inc/customizer/core/class-zakra-fonts.php(132): WP_Filesystem_FTPext->get_contents('/var/www/html/w...')
+#2 /var/www/html/wp-content/themes/zakra/inc/customizer/core/custom-controls/typography/class-zakra-typography-control.php(151): Zakra_Fonts::get_google_fonts()
+#3 /var/www/html/wp-content/themes/zakra/inc/customizer/core/custom-controls/typography/class-zakra-typography-control.php(48): Zakra_Typography_Control->get_google_fonts()
+#4 /var/www/html/wp-includes/class-wp-customize-manager.php(4542): Zakra_Typography_Control->enqueue()
+#5 /var/www/html/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->enqueue_control_scripts('')
+#6 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-admin/customize.php(123): do_action('customize_contr...')
+#9 {main}
+  thrown in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2024-01-12T13:31:21+00:00 CRITICAL Uncaught TypeError: ftp_nlist(): Argument #1 ($ftp) must be of type FTP\Connection, null given in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php:438
+Stack trace:
+#0 /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php(438): ftp_nlist(NULL, '/var/www/html/w...')
+#1 /var/www/html/wp-admin/includes/class-wp-filesystem-base.php(231): WP_Filesystem_FTPext->exists('/var/www/html/w...')
+#2 /var/www/html/wp-admin/includes/class-wp-filesystem-base.php(79): WP_Filesystem_Base->find_folder('/var/www/html/w...')
+#3 /var/www/html/wp-content/themes/superb-pixels/webfont-loader/wptt-webfont-loader.php(538): WP_Filesystem_Base->wp_content_dir()
+#4 /var/www/html/wp-content/themes/superb-pixels/webfont-loader/wptt-webfont-loader.php(582): WPTT_WebFont_Loader->get_base_path()
+#5 /var/www/html/wp-content/themes/superb-pixels/webfont-loader/wptt-webfont-loader.php(483): WPTT_WebFont_Loader->get_fonts_folder()
+#6 /var/www/html/wp-content/themes/superb-pixels/webfont-loader/wptt-webfont-loader.php(525): WPTT_WebFont_Loader->get_local_stylesheet_path()
+#7 /var/www/html/wp-content/themes/superb-pixels/webfont-loader/wptt-webfont-loader.php(144): WPTT_WebFont_Loader->local_file_exists()
+#8 /var/www/html/wp-content/themes/superb-pixels/webfont-loader/wptt-webfont-loader.php(706): WPTT_WebFont_Loader->get_url()
+#9 /var/www/html/wp-content/themes/superb-pixels/functions.php(224): wptt_get_webfont_url('https://fonts.g...')
+#10 /var/www/html/wp-includes/class-wp-hook.php(324): superb_pixels_enqueue_assets('')
+#11 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#12 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#13 /var/www/html/wp-includes/script-loader.php(2262): do_action('wp_enqueue_scri...')
+#14 /var/www/html/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#15 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#16 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#17 /var/www/html/wp-includes/general-template.php(3052): do_action('wp_head')
+#18 /var/www/html/wp-content/themes/superb-pixels/header.php(24): wp_head()
+#19 /var/www/html/wp-includes/template.php(790): require_once('/var/www/html/w...')
+#20 /var/www/html/wp-includes/template.php(725): load_template('/var/www/html/w...', true, Array)
+#21 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#22 /var/www/html/wp-content/themes/superb-pixels/index.php(19): get_header()
+#23 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#24 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#25 /var/www/html/index.php(17): require('/var/www/html/w...')
+#26 {main}
+  thrown in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 438
+
+2024-01-12T13:36:05+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, non-static method Sydney_Header::logo() cannot be called statically in /var/www/html/wp-includes/customize/class-wp-customize-partial.php:222
+Stack trace:
+#0 /var/www/html/wp-includes/customize/class-wp-customize-selective-refresh.php(372): WP_Customize_Partial->render(Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(324): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#5 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-includes/customize/class-wp-customize-partial.php on line 222
+

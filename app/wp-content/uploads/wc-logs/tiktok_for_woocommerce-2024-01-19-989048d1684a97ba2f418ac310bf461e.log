@@ -1,0 +1,322 @@
+2024-01-19T03:28:09+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync: catalog_sync executing for HC Computer
+2024-01-19T03:28:09+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync: adding and updating products from wc_get_products since 18 January 2024 12:00:51
+2024-01-19T03:28:09+00:00 DEBUG Tt4b_Catalog_Class::delete_products_helper: no products retrieved from tt4b_product_delete_queue option, skipping product deletion
+2024-01-19T03:28:09+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.2/tbp/business_profile/store/update/
+
+{"business_platform":"WOO_COMMERCE","external_business_id":"tt4b_woocommerce_6597aabb89eb6","net_gmv":[{"interval":"LIFETIME","max":0,"min":0,"unit":"CURRENCY"}],"net_order_count":[{"interval":"LIFETIME","max":0,"min":0,"unit":"COUNT"}],"tenure":{"min":0,"max":0,"unit":"DAYS"},"extra_data":"1.2.3"}
+ ajax: yes
+2024-01-19T03:28:09+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+X-Api-Deprecation-Info: API for Business Version 1.3 is now live. To avoid disruption to your business, we recommend you migrate all calls to v1.3 as soon as possible. Please visit our migration guide for more details: https://ads.tiktok.com/marketing_api/docs?id=1740029169927169
+X-Domain-Change-Info: We have moved to the new domain business-api.tiktok.com for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-Tt-Logid: 202401190328082144251EE15F991D1996
+Server-Timing: inner; dur=256
+x-tt-trace-host: 0115fb3933a63395317ce1f4abb4f506dd77207ef69bdd60503a1c7f798cd2f69a73a4befbdc7e029c4457d10eb2740a021fd3419ca6fe45a735f31b93c7f3d237c1175ba69d4d00d1c6f435f84106ddb405871a3a725b5392bbc9c1775bd1a5eb
+x-tt-trace-id: 00-2401190328082144251EE15F991D1996-1490FC80796C50A4-00
+Server: TLB
+Content-Encoding: gzip
+Expires: Fri, 19 Jan 2024 03:28:09 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Fri, 19 Jan 2024 03:28:09 GMT
+Content-Length: 541
+X-Cache: TCP_MISS from a23-59-80-124.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+Connection: close
+Vary: Accept-Encoding
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=4, origin; dur=260
+X-Origin-Response-Time: 260,23.59.80.124
+X-Akamai-Request-ID: 19165e9b
+
+{"code":0,"message":"OK","request_id":"202401190328082144251EE15F991D1996","data":{"adv_id":"7314567020744458248","bc_id":"7314566099670958088","business_platform":"WOO_COMMERCE","catalog_id":"7323598436790503169","core_user_id":"7313010366211163138","country":"VN","create_time":"2024-01-13 15:06:39","currency":"VND","domain":"https://hccomputer.net","email":"congnv69@gmail.com","external_business_id":"tt4b_woocommerce_6597aabb89eb6","is_email_verified":true,"is_test":false,"is_verified":true,"net_gmv":[{"interval":"LIFETIME","max":0,"min":0,"unit":"CURRENCY"}],"net_order_count":[{"interval":"LIFETIME","max":0,"min":0,"unit":"COUNT"}],"phone_number":"+841234567890","pixel_code":"CMHAEGRC77U8OC88QNOG","status":2,"store_name":"HC Computer","tenure":{"max":0,"min":0,"unit":"DAYS"},"timezone":"GMT+7:00","update_time":"2024-01-13 15:07:58","website_url":"https://hccomputer.net"}}
+
+2024-01-19T03:28:09+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync_helper: no products retrieved from wc_get_products
+2024-01-19T03:28:09+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync_helper: product_page: 1 product_count: 0, variation_count: 0
+2024-01-19T03:28:09+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/catalog/product/upload/
+
+{"bc_id":"7314566099670958088","catalog_id":"7323598436790503169","products":[]}
+ ajax: yes
+2024-01-19T03:28:10+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 134
+stablecode: 0
+upstream-caught: None
+X_TT_LOGID: 202401190328092144251EE15F991D19B5
+X-Domain-Change-Info: We have moved to a new domain for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-TT-LOGID: 202401190328092144251EE15F991D19B5
+X-TT-LOGID: 202401190328092144251EE15F991D19B5
+Server-Timing: inner; dur=156
+x-tt-trace-host: 0115fb3933a63395317ce1f4abb4f506dd77207ef69bdd60503a1c7f798cd2f69a73a4befbdc7e029c4457d10eb2740a021fd3419ca6fe45a735f31b93c7f3d2376616e9e88e07352a2c4cdae92aadca60568c351a7bfb35e09988729e84b6caa6
+x-tt-trace-id: 00-2401190328092144251EE15F991D19B5-1490FC80796C5120-00
+Server: TLB
+Expires: Fri, 19 Jan 2024 03:28:10 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Fri, 19 Jan 2024 03:28:10 GMT
+X-Cache: TCP_MISS from a23-59-80-124.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=3, origin; dur=160
+X-Origin-Response-Time: 161,23.59.80.124
+X-Akamai-Request-ID: 1916669b
+
+{"code": 40002, "message": "products: Shorter than minimum length 1.", "request_id": "202401190328092144251EE15F991D19B5", "data": {}}
+
+2024-01-19T04:35:19+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-19T04:35:19+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMHAEGRC77U8OC88QNOG","data":[{"event":"ViewContent","event_id":"65a9fc07e5080_tt4b_woocommerce_6597aabb89eb6_233","event_time":1705638919,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"142.93.167.203","user_agent":"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/114.0.0.0 Safari\/537.36","locale":"en"},"properties":{"contents":[{"price":0,"quantity":1,"content_id":"233","content_name":"CPU INTEL Core i9-12900K (16C\/24T, 3.20 GHz - 5.20 GHz, 30MB) - 1700"}],"content_type":"product","currency":"VND","value":0},"page":{"url":"http:\/\/hccomputer.net\/product\/cpu-intel-core-i9-12900k-16c-24t-3-20-ghz-5-20-ghz-30mb-1700\/"}}]}
+ ajax: no
+2024-01-19T04:35:20+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20240119043520685FC43539F3C16C395B
+x-tt-trace-host: 0115fb3933a63395317ce1f4abb4f506dd9129c99d384079d605acb149112f8cbc08f64fad3fa853a140c580c8cae2ed18a41a89e49b4fc2ba740fa974b2e97cde63424f80cd687fabd3c8a892bb358113503fa40ffb7871134924f6c7adbdc59bc48c9f3161b6ef5dcd59bab4f06b5936
+x-tt-trace-id: 00-240119043520685FC43539F3C16C395B-3B124B89DA0057E5-00
+X-Origin-Response-Time: 113,23.218.219.9
+X-Akamai-Request-ID: 19f8e0b0.1bdb1d
+Expires: Fri, 19 Jan 2024 04:35:20 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Fri, 19 Jan 2024 04:35:20 GMT
+X-Cache: TCP_MISS from a23-210-250-109.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-218-219-9.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=222, origin; dur=113
+Server-Timing: inner; dur=110
+X-Parent-Response-Time: 332,23.210.250.109
+
+{"code": 0, "message": "OK", "request_id": "20240119043520685FC43539F3C16C395B", "data": {}}
+
+2024-01-19T04:49:55+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync: catalog_sync executing for HC Computer
+2024-01-19T04:49:55+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync: adding and updating products from wc_get_products since 19 January 2024 10:28:09
+2024-01-19T04:49:55+00:00 DEBUG Tt4b_Catalog_Class::delete_products_helper: no products retrieved from tt4b_product_delete_queue option, skipping product deletion
+2024-01-19T04:49:55+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync_helper: no products retrieved from wc_get_products
+2024-01-19T04:49:55+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync_helper: product_page: 1 product_count: 0, variation_count: 0
+2024-01-19T04:49:55+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/catalog/product/upload/
+
+{"bc_id":"7314566099670958088","catalog_id":"7323598436790503169","products":[]}
+ ajax: yes
+2024-01-19T04:49:56+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 134
+stablecode: 0
+upstream-caught: None
+X_TT_LOGID: 2024011904495476D0B6869096F8554F32
+X-Domain-Change-Info: We have moved to a new domain for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-TT-LOGID: 2024011904495476D0B6869096F8554F32
+X-TT-LOGID: 2024011904495476D0B6869096F8554F32
+Server-Timing: inner; dur=457
+x-tt-trace-host: 0115fb3933a63395317ce1f4abb4f506dd3a6a78673928096f591d8e1292ea9e3529f49ed64eb66fd9cb5a1ccb05609451f80a3ad9c5da46f872b5bed645234f683b6dd7580db63108cb9fc688be3f206e321fa64ce3986a4a9ee942ed0739a5ab
+x-tt-trace-id: 00-24011904495476D0B6869096F8554F32-67AC9AB46C60123E-00
+Server: TLB
+Expires: Fri, 19 Jan 2024 04:49:56 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Fri, 19 Jan 2024 04:49:56 GMT
+X-Cache: TCP_MISS from a23-59-80-47.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=26, origin; dur=504
+X-Origin-Response-Time: 505,23.59.80.47
+X-Akamai-Request-ID: 3f1586de
+
+{"code": 40002, "message": "products: Shorter than minimum length 1.", "request_id": "2024011904495476D0B6869096F8554F32", "data": {}}
+
+2024-01-19T08:11:35+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync: catalog_sync executing for HC Computer
+2024-01-19T08:11:35+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync: adding and updating products from wc_get_products since 19 Tháng Một 2024 11:49:55
+2024-01-19T08:11:36+00:00 DEBUG Tt4b_Catalog_Class::delete_products_helper: no products retrieved from tt4b_product_delete_queue option, skipping product deletion
+2024-01-19T08:11:36+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync_helper: no products retrieved from wc_get_products
+2024-01-19T08:11:36+00:00 DEBUG Tt4b_Catalog_Class::catalog_sync_helper: product_page: 1 product_count: 0, variation_count: 0
+2024-01-19T08:11:36+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/catalog/product/upload/
+
+{"bc_id":"7314566099670958088","catalog_id":"7323598436790503169","products":[]}
+ ajax: yes
+2024-01-19T08:11:37+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 134
+stablecode: 0
+upstream-caught: None
+X_TT_LOGID: 202401190811353FD783B72B63AA08ABF4
+X-Domain-Change-Info: We have moved to a new domain for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-TT-LOGID: 202401190811353FD783B72B63AA08ABF4
+X-TT-LOGID: 202401190811353FD783B72B63AA08ABF4
+Server-Timing: inner; dur=159
+x-tt-trace-host: 0115fb3933a63395317ce1f4abb4f506dd7db84354ad5486d4972e4ba806f5f95f0a471d84a0b147d52079a33be6e153aedbaea9cab843392e6f12d9972ea2ae3bac0a4096badc30e88137ec4860f0c906ac44fce6f595eee3e8157daf1e6b37a2
+x-tt-trace-id: 00-2401190811353FD783B72B63AA08ABF4-28E42F6162237D79-00
+Server: TLB
+Expires: Fri, 19 Jan 2024 08:11:37 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Fri, 19 Jan 2024 08:11:37 GMT
+X-Cache: TCP_MISS from a23-59-80-188.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=2, origin; dur=165
+X-Origin-Response-Time: 165,23.59.80.188
+X-Akamai-Request-ID: 190b36cc
+
+{"code": 40002, "message": "products: Shorter than minimum length 1.", "request_id": "202401190811353FD783B72B63AA08ABF4", "data": {}}
+
+2024-01-19T09:51:13+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-19T09:51:13+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMHAEGRC77U8OC88QNOG","data":[{"event":"ViewContent","event_id":"65aa4611905b8_tt4b_woocommerce_6597aabb89eb6_235","event_time":1705657873,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"188.166.155.160","user_agent":"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/114.0.0.0 Safari\/537.36","locale":"en"},"properties":{"contents":[{"price":0,"quantity":1,"content_id":"235","content_name":"RAM desktop KINGSTON FURY Beast RGB (2 x 16GB) DDR5 5600MHz (KF556C40BBAK2-32)"}],"content_type":"product","currency":"VND","value":0},"page":{"url":"http:\/\/hccomputer.net\/product\/ram-desktop-kingston-fury-beast-rgb-2-x-16gb-ddr5-5600mhz-kf556c40bbak2-32\/"}}]}
+ ajax: no
+2024-01-19T09:51:14+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 2024011909511403AB37CF82FE7009AB44
+x-tt-trace-host: 0115fb3933a63395317ce1f4abb4f506dd413a7e47040906e099b5aff1c14043019960fa4c02fe5e471dad495086cebafe78cdb6d03d61eb904cf548a327a65026bb858890d2454ffc5ffd4d9fdea1a3f37b0347d7217f2b0a2b36b5c931e3364fb596cba7db9ad173fa92c849e776256e
+x-tt-trace-id: 00-24011909511403AB37CF82FE7009AB44-2A92F15391CB6630-00
+X-Origin-Response-Time: 92,23.213.246.232
+X-Akamai-Request-ID: 431bca95.cb00801
+Expires: Fri, 19 Jan 2024 09:51:14 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Fri, 19 Jan 2024 09:51:14 GMT
+X-Cache: TCP_MISS from a23-47-190-86.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-213-246-232.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=226, origin; dur=92
+Server-Timing: inner; dur=90
+X-Parent-Response-Time: 312,23.47.190.86
+
+{"code": 0, "message": "OK", "request_id": "2024011909511403AB37CF82FE7009AB44", "data": {}}
+
+2024-01-19T10:03:04+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-19T10:03:04+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMHAEGRC77U8OC88QNOG","data":[{"event":"ViewContent","event_id":"65aa48d8076d8_tt4b_woocommerce_6597aabb89eb6_221","event_time":1705658584,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"188.166.55.150","user_agent":"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/114.0.0.0 Safari\/537.36","locale":"en"},"properties":{"contents":[{"price":0,"quantity":1,"content_id":"221","content_name":"Ph\u1ea7n m\u1ec1m Windows 11 Home 64-bit All Lng PK Lic Online DwnLd NR"}],"content_type":"product","currency":"VND","value":0},"page":{"url":"http:\/\/hccomputer.net\/product\/phan-mem-windows-11-home-64-bit-all-lng-pk-lic-online-dwnld-nr\/"}}]}
+ ajax: no
+2024-01-19T10:03:04+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20240119100304E91A3FBF83EC7000178A
+x-tt-trace-host: 0115fb3933a63395317ce1f4abb4f506dd047d6d50da508870e125f3cc86ae6467541904d952ecd2a032f88b04c3568855d3940e3ddfd601a35bffae2e4ab3d242a1cddc50c73ab6afade30cd63b46d133425d82867e3649101c612651cdad47c1056074d8014c4dc671c1f90a931fe404
+x-tt-trace-id: 00-240119100304E91A3FBF83EC7000178A-3A05DCA0BB3E0594-00
+X-Origin-Response-Time: 31,23.213.246.233
+X-Akamai-Request-ID: 695cd31d.1a003c2f
+Expires: Fri, 19 Jan 2024 10:03:04 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Fri, 19 Jan 2024 10:03:04 GMT
+X-Cache: TCP_MISS from a23-59-80-158.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-213-246-233.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=228, origin; dur=31
+Server-Timing: inner; dur=21
+X-Parent-Response-Time: 252,23.59.80.158
+
+{"code": 0, "message": "OK", "request_id": "20240119100304E91A3FBF83EC7000178A", "data": {}}
+
+2024-01-19T20:21:27+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-19T20:21:27+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMHAEGRC77U8OC88QNOG","data":[{"event":"ViewContent","event_id":"65aad9c787655_tt4b_woocommerce_6597aabb89eb6_225","event_time":1705695687,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"128.199.111.19","user_agent":"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/114.0.0.0 Safari\/537.36","locale":"en"},"properties":{"contents":[{"price":0,"quantity":1,"content_id":"225","content_name":"Ph\u1ea7n m\u1ec1m Microsoft 365 Personal (QQ2-01896)"}],"content_type":"product","currency":"VND","value":0},"page":{"url":"http:\/\/hccomputer.net\/product\/phan-mem-microsoft-365-personal-qq2-01896\/"}}]}
+ ajax: no
+2024-01-19T20:21:28+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20240119202127FD4AB05634DAB52C7B0D
+x-tt-trace-host: 0115fb3933a63395317ce1f4abb4f506dda729c0a97367cc35102fab1e5b8b22093c0781d134d733b281dcb7164f679f8f2f1ad4b9cbc619e40ebb81b81c8acfe0cc297c26f73503fa0a0e25c7da8a08a753dac15dda28dcae55d447f4714967b3a322bd5a6a974ff8bb96436d3b5ae409
+x-tt-trace-id: 00-240119202127FD4AB05634DAB52C7B0D-2DAED83C9E08BA72-00
+X-Origin-Response-Time: 132,23.218.219.49
+X-Akamai-Request-ID: 308b1688.34ef174
+Expires: Fri, 19 Jan 2024 20:21:28 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Fri, 19 Jan 2024 20:21:28 GMT
+X-Cache: TCP_MISS from a23-59-80-60.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-218-219-49.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=225, origin; dur=132
+Server-Timing: inner; dur=128
+X-Parent-Response-Time: 353,23.59.80.60
+
+{"code": 0, "message": "OK", "request_id": "20240119202127FD4AB05634DAB52C7B0D", "data": {}}
+
+2024-01-19T22:20:59+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-19T22:20:59+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMHAEGRC77U8OC88QNOG","data":[{"event":"ViewContent","event_id":"65aaf5cb88b33_tt4b_woocommerce_6597aabb89eb6_115","event_time":1705702859,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"66.249.79.75","user_agent":"Mozilla\/5.0 (Linux; Android 6.0.1; Nexus 5X Build\/MMB29P) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/120.0.6099.224 Mobile Safari\/537.36 (compatible; Googlebot\/2.1; +http:\/\/www.google.com\/bot.html)","locale":"en"},"properties":{"contents":[{"price":150000,"quantity":1,"content_id":"115","content_name":"USB SanDisk Cruzer Glide USB 3.0 16Gb"}],"content_type":"product","currency":"VND","value":150000},"page":{"url":"http:\/\/hccomputer.net\/product\/usb-sandisk-cruzer-glide-usb-3-0-16gb\/"}}]}
+ ajax: no
+2024-01-19T22:20:59+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20240119222059F7D7D8CE3EF4A033F14D
+x-tt-trace-host: 0115fb3933a63395317ce1f4abb4f506dda729c0a97367cc35102fab1e5b8b2209c848136596cb79f6611cb805eb0901804588fc69ba7c5b66afae2b57ea8ae72e231568451d470909dc6b0df98fd80f5a6cde0e8c1b3c31af0cacc118828b20251e31a249390e304c0b00d13be5074b6f
+x-tt-trace-id: 00-240119222059F7D7D8CE3EF4A033F14D-225CFA5CB5F8D83F-00
+X-Origin-Response-Time: 101,23.32.17.64
+X-Akamai-Request-ID: 13b2ef44.3e99313
+Expires: Fri, 19 Jan 2024 22:20:59 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Fri, 19 Jan 2024 22:20:59 GMT
+X-Cache: TCP_MISS from a23-59-80-60.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-32-17-64.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=224, origin; dur=101
+Server-Timing: inner; dur=97
+X-Parent-Response-Time: 321,23.59.80.60
+
+{"code": 0, "message": "OK", "request_id": "20240119222059F7D7D8CE3EF4A033F14D", "data": {}}
+
+2024-01-19T23:50:59+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-19T23:50:59+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMHAEGRC77U8OC88QNOG","data":[{"event":"ViewContent","event_id":"65ab0ae394b05_tt4b_woocommerce_6597aabb89eb6_213","event_time":1705708259,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"66.249.79.74","user_agent":"Mozilla\/5.0 (Linux; Android 6.0.1; Nexus 5X Build\/MMB29P) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/120.0.6099.224 Mobile Safari\/537.36 (compatible; Googlebot\/2.1; +http:\/\/www.google.com\/bot.html)","locale":"en"},"properties":{"contents":[{"price":0,"quantity":1,"content_id":"213","content_name":"M\u00e1y in Canon 2900 Ch\u00ednh H\u00e3ng"}],"content_type":"product","currency":"VND","value":0},"page":{"url":"http:\/\/hccomputer.net\/product\/may-in-canon-2900-chinh-hang\/"}}]}
+ ajax: no
+2024-01-19T23:51:00+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202401192351000EEB7E19DDA2CE38C38A
+x-tt-trace-host: 0115fb3933a63395317ce1f4abb4f506dda4370587ee19695b8600d80855d1b91c63de0ea0d611075866c604ab260942baac476ef23f44a4a26f4d3c34815eb8c46047f223ff39e857b156dcf58bb182ad34597178965c62dda283212aa560446f2e43206d8ea5e16c85d260c69ebfae36
+x-tt-trace-id: 00-2401192351000EEB7E19DDA2CE38C38A-469C3EF8908F35E4-00
+X-Origin-Response-Time: 117,23.218.219.53
+X-Akamai-Request-ID: 979e248.24907a15
+Expires: Fri, 19 Jan 2024 23:51:00 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Fri, 19 Jan 2024 23:51:00 GMT
+X-Cache: TCP_MISS from a23-210-250-117.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-218-219-53.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=227, origin; dur=117
+Server-Timing: inner; dur=114
+X-Parent-Response-Time: 339,23.210.250.117
+
+{"code": 0, "message": "OK", "request_id": "202401192351000EEB7E19DDA2CE38C38A", "data": {}}
+

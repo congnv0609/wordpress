@@ -1,0 +1,14 @@
+2024-01-17T09:59:07+00:00 CRITICAL Uncaught Exception: Can't create folder <strong>/var/www/html/wp-content/cache/tmp</strong>: mkdir(): Permission denied in /var/www/html/wp-content/plugins/w3-total-cache/Util_File.php:356
+Stack trace:
+#0 /var/www/html/wp-content/plugins/w3-total-cache/Util_File.php(373): W3TC\Util_File::create_tmp_dir()
+#1 /var/www/html/wp-content/plugins/w3-total-cache/ConfigUtil.php(74): W3TC\Util_File::file_put_contents_atomic('/var/www/html/w...', '<?php exit; ?>{...')
+#2 /var/www/html/wp-content/plugins/w3-total-cache/ConfigCompiler.php(200): W3TC\ConfigUtil::save_item(0, false, Array)
+#3 /var/www/html/wp-content/plugins/w3-total-cache/Config.php(379): W3TC\ConfigCompiler->save()
+#4 /var/www/html/wp-content/plugins/w3-total-cache/SetupGuide_Plugin_Admin.php(114): W3TC\Config->save()
+#5 /var/www/html/wp-includes/class-wp-hook.php(324): W3TC\SetupGuide_Plugin_Admin->set_tos_choice('')
+#6 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_w3tc_to...')
+#9 {main}
+  thrown in /var/www/html/wp-content/plugins/w3-total-cache/Util_File.php on line 356
+
