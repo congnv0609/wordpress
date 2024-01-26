@@ -1,2 +1,4 @@
 #app/wp-content/uploads/
 #mysql/data
+certbot/conf/*
+certbot/www/*
