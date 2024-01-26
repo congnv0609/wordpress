@@ -1,0 +1,208 @@
+2024-01-25T01:28:16+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-25T01:28:16+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMHAEGRC77U8OC88QNOG","data":[{"event":"ViewContent","event_id":"65b1b9305e676_tt4b_woocommerce_6597aabb89eb6_213","event_time":1706146096,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"40.77.167.7","user_agent":"Mozilla\/5.0 AppleWebKit\/537.36 (KHTML, like Gecko; compatible; bingbot\/2.0; +http:\/\/www.bing.com\/bingbot.htm) Chrome\/116.0.1938.76 Safari\/537.36","locale":"en"},"properties":{"contents":[{"price":0,"quantity":1,"content_id":"213","content_name":"M\u00e1y in Canon 2900 Ch\u00ednh H\u00e3ng"}],"content_type":"product","currency":"VND","value":0},"page":{"url":"http:\/\/hccomputer.net\/product\/may-in-canon-2900-chinh-hang\/"}}]}
+ ajax: no
+2024-01-25T01:28:17+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20240125012817D8AE801C34182CF25696
+x-tt-trace-host: 0115fb3933a63395317ce1f4abb4f506dd78d8ef75bf701ea7dd596adac0bdfe9b1002621d509c9b3182b9ba733c009bd72aa9b6c530a6c009002903736cd459dbbb73732be13808d87462612037e13c75473a72f6c719b3463b731f988712e6d502899420c6916cf418406c26ab9c165e
+x-tt-trace-id: 00-240125012817D8AE801C34182CF25696-5B89EDB310683DCD-00
+X-Origin-Response-Time: 112,23.213.246.240
+X-Akamai-Request-ID: 6d737cc.290fa344
+Expires: Thu, 25 Jan 2024 01:28:17 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Thu, 25 Jan 2024 01:28:17 GMT
+X-Cache: TCP_MISS from a23-59-80-228.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-213-246-240.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=225, origin; dur=112
+Server-Timing: inner; dur=107
+X-Parent-Response-Time: 332,23.59.80.228
+
+{"code": 0, "message": "OK", "request_id": "20240125012817D8AE801C34182CF25696", "data": {}}
+
+2024-01-25T07:10:05+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-25T07:10:05+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMHAEGRC77U8OC88QNOG","data":[{"event":"ViewContent","event_id":"65b2094d5fc85_tt4b_woocommerce_6597aabb89eb6_225","event_time":1706166605,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"35.243.235.164","user_agent":"ZoominfoBot (zoominfobot at zoominfo dot com)","locale":"en"},"properties":{"contents":[{"price":0,"quantity":1,"content_id":"225","content_name":"Ph\u1ea7n m\u1ec1m Microsoft 365 Personal (QQ2-01896)"}],"content_type":"product","currency":"VND","value":0},"page":{"url":"http:\/\/hccomputer.net\/product\/phan-mem-microsoft-365-personal-qq2-01896\/"}}]}
+ ajax: no
+2024-01-25T07:10:05+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 2024012507100545BD0BF94B5184BD2EC6
+x-tt-trace-host: 0115fb3933a63395317ce1f4abb4f506dd5014b20b42236489d7d720f3342dda866678cd522dd055c7bfdcf7e1d89df9654802e434a8c1597fc7d01d6de5d787e67c227437435ee28ebe858f8a59c70a24d458e08bfce979b6b56ce78f95e60283da6153653c1c037ab365d93457547e69
+x-tt-trace-id: 00-24012507100545BD0BF94B5184BD2EC6-43FA098BA192A506-00
+X-Origin-Response-Time: 89,23.213.246.140
+X-Akamai-Request-ID: 24f72885.141134a
+Expires: Thu, 25 Jan 2024 07:10:05 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Thu, 25 Jan 2024 07:10:05 GMT
+X-Cache: TCP_MISS from a23-59-80-76.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-213-246-140.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=226, origin; dur=89
+Server-Timing: inner; dur=85
+X-Parent-Response-Time: 310,23.59.80.76
+
+{"code": 0, "message": "OK", "request_id": "2024012507100545BD0BF94B5184BD2EC6", "data": {}}
+
+2024-01-25T07:14:05+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-25T07:14:05+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMHAEGRC77U8OC88QNOG","data":[{"event":"ViewContent","event_id":"65b20a3d3122e_tt4b_woocommerce_6597aabb89eb6_235","event_time":1706166845,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"35.243.235.164","user_agent":"ZoominfoBot (zoominfobot at zoominfo dot com)","locale":"en"},"properties":{"contents":[{"price":0,"quantity":1,"content_id":"235","content_name":"RAM desktop KINGSTON FURY Beast RGB (2 x 16GB) DDR5 5600MHz (KF556C40BBAK2-32)"}],"content_type":"product","currency":"VND","value":0},"page":{"url":"http:\/\/hccomputer.net\/product\/ram-desktop-kingston-fury-beast-rgb-2-x-16gb-ddr5-5600mhz-kf556c40bbak2-32\/"}}]}
+ ajax: no
+2024-01-25T07:14:05+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20240125071405320A191C4A8D263499C0
+x-tt-trace-host: 0115fb3933a63395317ce1f4abb4f506dd271977df4733f86f8f2aab88d8f2e8a5e40a99a6e2470f5f6ff3ee206a275e895d604790809f6d40c77847c5535cb4765a7d82b699e5c4fc7930f62c91d8d51bcc5953e96cf44e63d3e58b95c3e3643cafe69f29105cdd68b5baf21a5dd14a91
+x-tt-trace-id: 00-240125071405320A191C4A8D263499C0-48CE00E9CFA7923E-00
+X-Origin-Response-Time: 28,23.218.219.50
+X-Akamai-Request-ID: 3f14fb5c.1c53daa9
+Expires: Thu, 25 Jan 2024 07:14:05 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Thu, 25 Jan 2024 07:14:05 GMT
+X-Cache: TCP_MISS from a23-59-80-44.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-218-219-50.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=225, origin; dur=27
+Server-Timing: inner; dur=24
+X-Parent-Response-Time: 248,23.59.80.44
+
+{"code": 0, "message": "OK", "request_id": "20240125071405320A191C4A8D263499C0", "data": {}}
+
+2024-01-25T07:17:42+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-25T07:17:42+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMHAEGRC77U8OC88QNOG","data":[{"event":"ViewContent","event_id":"65b20b167dff2_tt4b_woocommerce_6597aabb89eb6_221","event_time":1706167062,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"35.243.235.164","user_agent":"ZoominfoBot (zoominfobot at zoominfo dot com)","locale":"en"},"properties":{"contents":[{"price":0,"quantity":1,"content_id":"221","content_name":"Ph\u1ea7n m\u1ec1m Windows 11 Home 64-bit All Lng PK Lic Online DwnLd NR"}],"content_type":"product","currency":"VND","value":0},"page":{"url":"http:\/\/hccomputer.net\/product\/phan-mem-windows-11-home-64-bit-all-lng-pk-lic-online-dwnld-nr\/"}}]}
+ ajax: no
+2024-01-25T07:17:43+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202401250717435D1DCBD1BBAADA036444
+x-tt-trace-host: 0115fb3933a63395317ce1f4abb4f506dd92e89942e8b0707ad53bf3e9f1b4c1b6625192881aa78eb4297e0706788e6924ef094f7b253af7e0a127c1ac3ee5c38fa959eb6ba398df6d3622cfc700c49d1f1a1da70a6d0801de9ab7992f68c80e43737aa09b6c024e68bd9e5b625842ab26
+x-tt-trace-id: 00-2401250717435D1DCBD1BBAADA036444-6DF533B90BAD92CE-00
+X-Origin-Response-Time: 32,23.207.199.112
+X-Akamai-Request-ID: 638142e3.4dccb8d2
+Expires: Thu, 25 Jan 2024 07:17:43 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Thu, 25 Jan 2024 07:17:43 GMT
+X-Cache: TCP_MISS from a23-59-80-183.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-207-199-112.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=293, origin; dur=32
+Server-Timing: inner; dur=29
+X-Parent-Response-Time: 317,23.59.80.183
+
+{"code": 0, "message": "OK", "request_id": "202401250717435D1DCBD1BBAADA036444", "data": {}}
+
+2024-01-25T07:18:41+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-25T07:18:41+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMHAEGRC77U8OC88QNOG","data":[{"event":"ViewContent","event_id":"65b20b51cae7d_tt4b_woocommerce_6597aabb89eb6_233","event_time":1706167121,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"35.243.235.164","user_agent":"ZoominfoBot (zoominfobot at zoominfo dot com)","locale":"en"},"properties":{"contents":[{"price":0,"quantity":1,"content_id":"233","content_name":"CPU INTEL Core i9-12900K (16C\/24T, 3.20 GHz - 5.20 GHz, 30MB) - 1700"}],"content_type":"product","currency":"VND","value":0},"page":{"url":"http:\/\/hccomputer.net\/product\/cpu-intel-core-i9-12900k-16c-24t-3-20-ghz-5-20-ghz-30mb-1700\/"}}]}
+ ajax: no
+2024-01-25T07:18:42+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202401250718429232FE71F6343D728AAC
+x-tt-trace-host: 0115fb3933a63395317ce1f4abb4f506dda4370587ee19695b8600d80855d1b91c3f7d01b33fee8f0a93a0bb35deb7bb8f85abaa780d5eb60c23f2f71835dcff4d82bc7d303eb5f839cab544c90624b45203e798a3993f8ffdfc5d32fac02cc57c4bd0b334a8879cb13b0ca8be702dea9a
+x-tt-trace-id: 00-2401250718429232FE71F6343D728AAC-1196540EB8E17A0F-00
+X-Origin-Response-Time: 28,23.32.17.70
+X-Akamai-Request-ID: 5f22e7.30c749b1
+Expires: Thu, 25 Jan 2024 07:18:42 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Thu, 25 Jan 2024 07:18:42 GMT
+X-Cache: TCP_MISS from a23-210-250-117.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-32-17-70.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=228, origin; dur=28
+Server-Timing: inner; dur=25
+X-Parent-Response-Time: 249,23.210.250.117
+
+{"code": 0, "message": "OK", "request_id": "202401250718429232FE71F6343D728AAC", "data": {}}
+
+2024-01-25T07:22:52+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-25T07:22:52+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMHAEGRC77U8OC88QNOG","data":[{"event":"ViewContent","event_id":"65b20c4cd9019_tt4b_woocommerce_6597aabb89eb6_37","event_time":1706167372,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"66.249.71.64","user_agent":"Mozilla\/5.0 (Linux; Android 6.0.1; Nexus 5X Build\/MMB29P) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/120.0.6099.224 Mobile Safari\/537.36 (compatible; Googlebot\/2.1; +http:\/\/www.google.com\/bot.html)","locale":"en"},"properties":{"contents":[{"price":150000,"quantity":1,"content_id":"37","content_name":"USB Lexar JumpDrive V400 32GB"}],"content_type":"product","currency":"VND","value":150000},"page":{"url":"http:\/\/hccomputer.net\/product\/usb-chinh-hang-san-nhac-cho-o-to\/"}}]}
+ ajax: no
+2024-01-25T07:22:53+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202401250722539EE83D339FA2622F6CFD
+Server-Timing: inner; dur=31
+x-tt-trace-host: 0115fb3933a63395317ce1f4abb4f506dd08030ad9dc562a7b8ce92673f5593a93ded1df49a3e7078c083d1976538916e7aa8bcf3c34131bb92be175b2668e83e4e599a711e8d42477848589e23d8f06cb80e32786b3b138076b31b63a4628f9da
+x-tt-trace-id: 00-2401250722539EE83D339FA2622F6CFD-1F7ADB71A63DC642-00
+Expires: Thu, 25 Jan 2024 07:22:53 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Thu, 25 Jan 2024 07:22:53 GMT
+X-Cache: TCP_MISS from a23-59-80-95.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=4, origin; dur=271
+X-Origin-Response-Time: 271,23.59.80.95
+X-Akamai-Request-ID: 13095287
+
+{"code": 0, "message": "OK", "request_id": "202401250722539EE83D339FA2622F6CFD", "data": {}}
+
+2024-01-25T11:29:51+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-25T11:29:51+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMHAEGRC77U8OC88QNOG","data":[{"event":"ViewContent","event_id":"65b2462fca379_tt4b_woocommerce_6597aabb89eb6_233","event_time":1706182191,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"207.46.13.126","user_agent":"Mozilla\/5.0 AppleWebKit\/537.36 (KHTML, like Gecko; compatible; bingbot\/2.0; +http:\/\/www.bing.com\/bingbot.htm) Chrome\/116.0.1938.76 Safari\/537.36","locale":"en"},"properties":{"contents":[{"price":0,"quantity":1,"content_id":"233","content_name":"CPU INTEL Core i9-12900K (16C\/24T, 3.20 GHz - 5.20 GHz, 30MB) - 1700"}],"content_type":"product","currency":"VND","value":0},"page":{"url":"http:\/\/hccomputer.net\/product\/cpu-intel-core-i9-12900k-16c-24t-3-20-ghz-5-20-ghz-30mb-1700\/"}}]}
+ ajax: no
+2024-01-25T11:29:52+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 2024012511295203249DF4623E3742B134
+x-tt-trace-host: 0115fb3933a63395317ce1f4abb4f506dd47f5278b5f01d65fdfe9bd9f66ea0a458074323cb8d54faafb23ce88514a7e9b5fc83dc2007011672b74195672f1d824cffbf98a58a0fb62b3d70719c85f82aa8bc65041ba75a122b6dba083a8ec2f4fb4b6df36fdd955bce86b8a29a719982b
+x-tt-trace-id: 00-24012511295203249DF4623E3742B134-280C74E3FB6FD25A-00
+X-Origin-Response-Time: 301,23.58.124.11
+X-Akamai-Request-ID: 1823a13d.12f1e6a8
+Expires: Thu, 25 Jan 2024 11:29:52 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Thu, 25 Jan 2024 11:29:52 GMT
+X-Cache: TCP_MISS from a23-59-80-23.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-58-124-11.deploy.akamaitechnologies.com (AkamaiGHost/11.4.1-53915762) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=227, origin; dur=301
+Server-Timing: inner; dur=298
+X-Parent-Response-Time: 522,23.59.80.23
+
+{"code": 0, "message": "OK", "request_id": "2024012511295203249DF4623E3742B134", "data": {}}
+

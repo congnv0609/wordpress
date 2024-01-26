@@ -1,4 +1,5 @@
 #app/wp-content/uploads/
 #mysql/data
-certbot/conf/*
-certbot/www/*
+certbot/conf
+certbot/www
+

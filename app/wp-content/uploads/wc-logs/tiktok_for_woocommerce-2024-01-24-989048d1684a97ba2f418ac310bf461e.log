@@ -1,0 +1,90 @@
+2024-01-24T00:12:44+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-24T00:12:44+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMHAEGRC77U8OC88QNOG","data":[{"event":"ViewContent","event_id":"65b055fc42555_tt4b_woocommerce_6597aabb89eb6_131","event_time":1706055164,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"207.46.13.78","user_agent":"Mozilla\/5.0 AppleWebKit\/537.36 (KHTML, like Gecko; compatible; bingbot\/2.0; +http:\/\/www.bing.com\/bingbot.htm) Chrome\/116.0.1938.76 Safari\/537.36","locale":"en"},"properties":{"contents":[{"price":150000,"quantity":1,"content_id":"131","content_name":"B\u00e0n Ph\u00edm C\u00f3 D\u00e2y Rapoo NK1800 - b\u00e0n ph\u00edm v\u0103n ph\u00f2ng"}],"content_type":"product","currency":"VND","value":150000},"page":{"url":"http:\/\/hccomputer.net\/product\/ban-phim-co-day-rapoo-nk1800-ban-phim-van-phong\/"}}]}
+ ajax: no
+2024-01-24T00:12:44+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202401240012442D584365A314F0B7CB20
+x-tt-trace-host: 0115fb3933a63395317ce1f4abb4f506dd9ccc7055feee93416427a288e22c843d4756f430c90542630842663a25fa0c72e3588a5e305a00656051ecdf2852ffe55bea33e35c4d84dcdf0ee0c55e98f8c8afc55498633b50f17ea2e5493b8915d128c684d9d03dd29c90745a6c6477cdf0
+x-tt-trace-id: 00-2401240012442D584365A314F0B7CB20-51CEA314C7BBFBDC-00
+X-Origin-Response-Time: 122,23.218.219.39
+X-Akamai-Request-ID: 873ed86e.72bcb
+Expires: Wed, 24 Jan 2024 00:12:44 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Wed, 24 Jan 2024 00:12:44 GMT
+X-Cache: TCP_MISS from a23-210-250-116.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-218-219-39.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=220, origin; dur=121
+Server-Timing: inner; dur=119
+X-Parent-Response-Time: 338,23.210.250.116
+
+{"code": 0, "message": "OK", "request_id": "202401240012442D584365A314F0B7CB20", "data": {}}
+
+2024-01-24T03:37:52+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-24T03:37:52+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMHAEGRC77U8OC88QNOG","data":[{"event":"ViewContent","event_id":"65b08610db4c7_tt4b_woocommerce_6597aabb89eb6_235","event_time":1706067472,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"157.55.39.202","user_agent":"Mozilla\/5.0 AppleWebKit\/537.36 (KHTML, like Gecko; compatible; bingbot\/2.0; +http:\/\/www.bing.com\/bingbot.htm) Chrome\/116.0.1938.76 Safari\/537.36","locale":"en"},"properties":{"contents":[{"price":0,"quantity":1,"content_id":"235","content_name":"RAM desktop KINGSTON FURY Beast RGB (2 x 16GB) DDR5 5600MHz (KF556C40BBAK2-32)"}],"content_type":"product","currency":"VND","value":0},"page":{"url":"http:\/\/hccomputer.net\/product\/ram-desktop-kingston-fury-beast-rgb-2-x-16gb-ddr5-5600mhz-kf556c40bbak2-32\/"}}]}
+ ajax: no
+2024-01-24T03:37:53+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202401240337536460753096E8E7F81B99
+x-tt-trace-host: 0115fb3933a63395317ce1f4abb4f506dd047d6d50da508870e125f3cc86ae64677b7fda36eb984c8c7312707346015976d49401be6395e72b9a946c19e01f62e44b1b5bbae5ee53893b7057565e42282adaba387f6c903356de8a95e0797ad7cbde2e71eaef6499feea37a2c15530acc7
+x-tt-trace-id: 00-2401240337536460753096E8E7F81B99-170D2DB502E1E06C-00
+X-Origin-Response-Time: 100,23.32.17.42
+X-Akamai-Request-ID: 37d3e14.33653c3
+Expires: Wed, 24 Jan 2024 03:37:53 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Wed, 24 Jan 2024 03:37:53 GMT
+X-Cache: TCP_MISS from a23-59-80-158.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-32-17-42.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=230, origin; dur=100
+Server-Timing: inner; dur=98
+X-Parent-Response-Time: 323,23.59.80.158
+
+{"code": 0, "message": "OK", "request_id": "202401240337536460753096E8E7F81B99", "data": {}}
+
+2024-01-24T12:21:25+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-01-24T12:21:25+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CMHAEGRC77U8OC88QNOG","data":[{"event":"ViewContent","event_id":"65b100c5bae00_tt4b_woocommerce_6597aabb89eb6_213","event_time":1706098885,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"66.249.79.75","user_agent":"Mozilla\/5.0 (Linux; Android 6.0.1; Nexus 5X Build\/MMB29P) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/120.0.6099.224 Mobile Safari\/537.36 (compatible; Googlebot\/2.1; +http:\/\/www.google.com\/bot.html)","locale":"en"},"properties":{"contents":[{"price":0,"quantity":1,"content_id":"213","content_name":"M\u00e1y in Canon 2900 Ch\u00ednh H\u00e3ng"}],"content_type":"product","currency":"VND","value":0},"page":{"url":"http:\/\/hccomputer.net\/product\/may-in-canon-2900-chinh-hang\/"}}]}
+ ajax: no
+2024-01-24T12:21:26+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20240124122125E3ECAC8F801680BE63F9
+x-tt-trace-host: 0115fb3933a63395317ce1f4abb4f506dd674fb9ba5b3da380295742c43a8c58773f530b48a175a1181c0760a8271955c6d50fa8f8cefbb5a628b75a95d78a1adb88fc1862fea43b9d338d653c79b70acfb01185258b30dc735f29350e1555af35ccacd564799dd79645aab303fc0bed10
+x-tt-trace-id: 00-240124122125E3ECAC8F801680BE63F9-049C4929CA25DE9C-00
+X-Origin-Response-Time: 96,23.218.219.35
+X-Akamai-Request-ID: 1fad3be4.42d9f61
+Expires: Wed, 24 Jan 2024 12:21:26 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Wed, 24 Jan 2024 12:21:26 GMT
+X-Cache: TCP_MISS from a23-59-80-29.deploy.akamaitechnologies.com (AkamaiGHost/11.4.1-53915762) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-218-219-35.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=223, origin; dur=96
+Server-Timing: inner; dur=93
+X-Parent-Response-Time: 314,23.59.80.29
+
+{"code": 0, "message": "OK", "request_id": "20240124122125E3ECAC8F801680BE63F9", "data": {}}
+
