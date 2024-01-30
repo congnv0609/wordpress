@@ -2,4 +2,4 @@
 #mysql/data
 certbot/conf
 certbot/www
-
+app/wp-content/cache
