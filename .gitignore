@@ -3,3 +3,4 @@
 certbot/conf
 certbot/www
 app/wp-content/cache
+app/ads.txt
