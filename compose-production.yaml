@@ -29,7 +29,7 @@ services:
     volumes:
       - ./app:/var/www/html
       - ./nginx/sites-available:/etc/nginx/conf.d/:ro
-      - ./certbot/conf/:/etc/letsencrypt/:ro	
+      - ./certbot/conf/:/etc/ssl/:ro
       - ./certbot/www/:/var/www/certbot/:ro
     depends_on:
       - php-fpm  # Depends on the PHP-FPM service
@@ -71,7 +71,7 @@ services:
     command: certonly --webroot --webroot-path=/var/www/certbot --email congnv69@gmail.com --agree-tos --no-eff-email -d hccomputer.net -d www.hccomputer.net
     volumes:
       - ./certbot/www/:/var/www/certbot/:rw
-      - ./certbot/conf/:/etc/letsencrypt/:rw
+      - ./certbot/conf/:/etc/ssl/:rw
 
   redis:
     image: redis:latest
